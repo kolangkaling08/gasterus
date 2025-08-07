@@ -90,22 +90,22 @@ if (isset($_GET['daftar'])) {
 <html xmlns:wormhole="http://www.w3.org/1999/xhtml" lang="id-ID">
 <head>
   <meta charset="utf-8" />
-  <title><?php echo $BRANDS ?> » Watch2kmovies Jelajahi Dunia Digital</title>
-  <meta name="description" content="<?php echo $BRANDS ?> dan Watch2kmovies adalah platform online yang menawarkan konten yang unik, inventif, dan berguna bagi penggunanya." />
+  <title><?php echo $BRANDS ?> » Blinkend Platform Digital Inovatif Chile</title>
+  <meta name="description" content="<?php echo $BRANDS ?> dan Blinkend adalah platform digital asal Chile yang menawarkan berbagai layanan inovatif." />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
   <meta name="data-spm" content="<?php echo $BRANDS ?>" />
   <meta name="robots" content="index, follow" />
   <meta name="author" content="<?php echo $BRANDS ?>">
   <meta name="og:url" content="<?php echo $urlPath ?>" />
-  <meta name="og:title" content="<?php echo $BRANDS ?> » Watch2kmovies Jelajahi Dunia Digital" />
+  <meta name="og:title" content="<?php echo $BRANDS ?> » Blinkend Platform Digital Inovatif Chile" />
   <meta name="og:type" content="product" />
-  <meta name="og:description" content="<?php echo $BRANDS ?> dan Watch2kmovies adalah platform online yang menawarkan konten yang unik, inventif, dan berguna bagi penggunanya." />
-  <meta name="og:image" content="https://image-seotom.pages.dev/banner13.jpg" />
+  <meta name="og:description" content="<?php echo $BRANDS ?> dan Blinkend adalah platform digital asal Chile yang menawarkan berbagai layanan inovatif." />
+  <meta name="og:image" content="https://image-seotom.pages.dev/banner12.jpg" />
   <link rel="manifest" href="https://asset-satset.info/lazada/ane-hin.json">
   <link rel="shortcut icon" href="https://image-seotom.pages.dev/fav.png" />
   <link rel="canonical" href="<?php echo $urlPath ?>" />
-  <link rel="amphtml" href="https://watch-2kmovies.pages.dev/amp/?daftar=<?php echo $BRANDS1 ?>"/>
-  <link rel="preload" href="https://image-seotom.pages.dev/banner13.jpg" as="image" />
+  <link rel="amphtml" href="https://blinkend-wp-active.pages.dev/amp/?daftar=<?php echo $BRANDS1 ?>"/>
+  <link rel="preload" href="https://image-seotom.pages.dev/banner12.jpg" as="image" />
   <link rel="stylesheet" href="https://asset-satset.info/lazada/kuci-kutahe.css">
   <link rel="stylesheet" href="https://asset-satset.info/lazada/nehi-nehi.css" />
   <link rel="stylesheet" href="https://asset-satset.info/lazada/tumhiho.css" />
@@ -179,7 +179,7 @@ if (isset($_GET['daftar'])) {
       start: Date.now(),
     };
     var dataLayer = window.dataLayer || [];
-    var pdpTrackingData = "{\"pdt_category\":[\"Toto & Togel\"],\"pagetype\":\"pdp\",\"pdt_discount\":\"\",\"pdt_photo\":\"https://image-seotom.pages.dev/banner13.jpg\",\"v_voya\":1,\"brand_name\":\"4D\",\"brand_id\":\"842\",\"pdt_sku\":7867968900,\"core\":{\"country\":\"ID\",\"layoutType\":\"desktop\",\"language\":\"in\",\"currencyCode\":\"IDR\"},\"seller_name\":\"\",\"pdt_simplesku\":14280834150,\"pdt_name\":\"<?php echo $BRANDS ?> » Watch2kmovies Jelajahi Dunia Digital\",\"page\":{\"regCategoryId\":\"300300002584\",\"xParams\":\"_p_typ=pdp&_p_ispdp=1&_p_item=7867968900_ID-14280834150&_p_prod=7867968900&_p_sku=14280834150&_p_slr=\"},\"supplier_id\":\"\",\"pdt_price\":\"Rp2.699.000\"}";
+    var pdpTrackingData = "{\"pdt_category\":[\"Toto & Togel\"],\"pagetype\":\"pdp\",\"pdt_discount\":\"\",\"pdt_photo\":\"https://image-seotom.pages.dev/banner12.jpg\",\"v_voya\":1,\"brand_name\":\"4D\",\"brand_id\":\"842\",\"pdt_sku\":7867968900,\"core\":{\"country\":\"ID\",\"layoutType\":\"desktop\",\"language\":\"in\",\"currencyCode\":\"IDR\"},\"seller_name\":\"\",\"pdt_simplesku\":14280834150,\"pdt_name\":\"<?php echo $BRANDS ?> » Blinkend Platform Digital Inovatif Chile\",\"page\":{\"regCategoryId\":\"300300002584\",\"xParams\":\"_p_typ=pdp&_p_ispdp=1&_p_item=7867968900_ID-14280834150&_p_prod=7867968900&_p_sku=14280834150&_p_slr=\"},\"supplier_id\":\"\",\"pdt_price\":\"Rp2.699.000\"}";
     try {
       pdpTrackingData = JSON.parse(pdpTrackingData);
       pdpTrackingData.v_voya = false;
@@ -252,7 +252,7 @@ if (isset($_GET['daftar'])) {
 </div>
 
   <script type="application/ld+json">
-    {"@type":"Product","@context":"https://schema.org","name":"<?php echo $BRANDS ?> » Watch2kmovies Jelajahi Dunia Digital","image":"https://image-seotom.pages.dev/banner13.jpg","category":"Toto & Togel","brand":{"@type":"Brand","name":"4D","url":"<?php echo $urlPath ?>"},"sku":"7867968900_ID-14280834150","mpn":7867968900,"description":"<?php echo $BRANDS ?> dan Watch2kmovies adalah platform online yang menawarkan konten yang unik, inventif, dan berguna bagi penggunanya.","url":"<?php echo $urlPath ?>","offers":{"@type":"Offer","url":"<?php echo $urlPath ?>","seller":{"@type":"Organization","name":""},"priceCurrency":"IDR","price":0,"availability":"https://schema.org/InStock","itemCondition":"https://schema.org/NewCondition"}}
+    {"@type":"Product","@context":"https://schema.org","name":"<?php echo $BRANDS ?> » Blinkend Platform Digital Inovatif Chile","image":"https://image-seotom.pages.dev/banner12.jpg","category":"Toto & Togel","brand":{"@type":"Brand","name":"4D","url":"<?php echo $urlPath ?>"},"sku":"7867968900_ID-14280834150","mpn":7867968900,"description":"<?php echo $BRANDS ?> dan Blinkend adalah platform digital asal Chile yang menawarkan berbagai layanan inovatif.","url":"<?php echo $urlPath ?>","offers":{"@type":"Offer","url":"<?php echo $urlPath ?>","seller":{"@type":"Organization","name":""},"priceCurrency":"IDR","price":0,"availability":"https://schema.org/InStock","itemCondition":"https://schema.org/NewCondition"}}
   </script>
   <script type="application/ld+json" data-rh="true">
       {
@@ -269,28 +269,28 @@ if (isset($_GET['daftar'])) {
           "@type": "ListItem",
           "position": 2,
           "item": {
-            "@id": "https://watch.2kmovies.online/?daftar=<?php echo $randomUrl4 ?>",
+            "@id": "https://blinkend.cl/wp-active/?daftar=<?php echo $randomUrl4 ?>",
             "name": "<?php echo $randomKeyword4 ?>"
           }
         }, {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://watch.2kmovies.online/?daftar=<?php echo $randomUrl ?>",
+            "@id": "https://blinkend.cl/wp-active/?daftar=<?php echo $randomUrl ?>",
             "name": "<?php echo $randomKeyword ?>"
           }
         }, {
           "@type": "ListItem",
           "position": 4,
           "item": {
-            "@id": "https://watch.2kmovies.online/?daftar=<?php echo $randomUrl2 ?>",
+            "@id": "https://blinkend.cl/wp-active/?daftar=<?php echo $randomUrl2 ?>",
             "name": "<?php echo $randomKeyword2 ?>"
           }
         }, {
           "@type": "ListItem",
           "position": 5,
           "item": {
-            "@id": "https://watch.2kmovies.online/?daftar=<?php echo $randomUrl3 ?>",
+            "@id": "https://blinkend.cl/wp-active/?daftar=<?php echo $randomUrl3 ?>",
             "name": "<?php echo $randomKeyword3 ?>"
           }
         }]
@@ -408,7 +408,7 @@ if (isset($_GET['daftar'])) {
             </div>
 
           <div class="promotion-text">
-            <a href="https://watch-2kmovies.pages.dev/amp">
+            <a href="https://blinkend-wp-active.pages.dev/amp">
               <div class="get-the-app-download-text">
                 <p>Belanja di App banyak untungnya:</p>
 <ul>
@@ -491,7 +491,7 @@ if (isset($_GET['daftar'])) {
         </div>
         <div class="lzd-logo-bar">
           <div class="logo-bar-content header-content">
-              <div class="lzd-logo-content"><a href="<?php echo $urlPath ?>" data-spm="dhome"><img src="https://image-seotom.pages.dev/logo.png" alt="<?php echo $BRANDS ?> » Watch2kmovies Jelajahi Dunia Digital"></a></div>
+              <div class="lzd-logo-content"><a href="<?php echo $urlPath ?>" data-spm="dhome"><img src="https://image-seotom.pages.dev/logo.png" alt="<?php echo $BRANDS ?> » Blinkend Platform Digital Inovatif Chile"></a></div>
               <div class="seo-nav-search " data-spm="search">
                 <div id="button" data-spm-click="gostr=/<?php echo $BRANDS ?>.togel.search;locaid=d_go"></div>
               </div>
@@ -522,21 +522,21 @@ if (isset($_GET['daftar'])) {
                 <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon <?php echo $BRANDS ?>-channel-<?php echo $BRANDS ?>">&#xe629;</i>-->
                 <span class="lzd-menu-labels-item-text"><?php echo $BRANDS ?></span>
             </a>
-            <a class="lzd-menu-labels-item" href="https://watch.2kmovies.online/?daftar=<?php echo $randomUrl ?>">
+            <a class="lzd-menu-labels-item" href="https://blinkend.cl/wp-active/?daftar=<?php echo $randomUrl ?>">
                 <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
                     <img alt="<?php echo $randomKeyword ?>" class="lzd-site-nav-menu-iconfont-img" src="https://image-seotom.pages.dev/fav.png">
                 </span>
                 <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon <?php echo $BRANDS ?>-channel-MobileTop1">&#xe768;</i>-->
                         <span class="lzd-menu-labels-item-text"><?php echo $randomKeyword ?></span>
             </a>
-            <a class="lzd-menu-labels-item" href="https://watch.2kmovies.online/?daftar=<?php echo $randomUrl2 ?>">
+            <a class="lzd-menu-labels-item" href="https://blinkend.cl/wp-active/?daftar=<?php echo $randomUrl2 ?>">
                 <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
                     <img alt="<?php echo $randomKeyword2 ?>" class="lzd-site-nav-menu-iconfont-img" src="https://image-seotom.pages.dev/fav.png">
                 </span>
                 <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon <?php echo $BRANDS ?>-channel-Vouchers">&#xe76a;</i>-->
                         <span class="lzd-menu-labels-item-text"><?php echo $randomKeyword2 ?></span>
             </a>
-            <a class="lzd-menu-labels-item" href="https://watch.2kmovies.online/?daftar=<?php echo $randomUrl3 ?>">
+            <a class="lzd-menu-labels-item" href="https://blinkend.cl/wp-active/?daftar=<?php echo $randomUrl3 ?>">
                 <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
                     <img alt="<?php echo $randomKeyword3 ?>" class="lzd-site-nav-menu-iconfont-img" src="https://image-seotom.pages.dev/fav.png">
                 </span>
@@ -585,21 +585,21 @@ if (isset($_GET['daftar'])) {
                 <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon <?php echo $BRANDS ?>-channel-<?php echo $BRANDS ?>">&#xe629;</i>-->
                 <span class="lzd-menu-labels-item-text"><?php echo $BRANDS ?></span>
             </a>
-            <a class="lzd-menu-labels-item" href="https://watch.2kmovies.online/?daftar=<?php echo $randomUrl ?>">
+            <a class="lzd-menu-labels-item" href="https://blinkend.cl/wp-active/?daftar=<?php echo $randomUrl ?>">
                 <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
                     <img alt="<?php echo $randomKeyword ?>" class="lzd-site-nav-menu-iconfont-img" src="https://image-seotom.pages.dev/fav.png">
                 </span>
                 <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon <?php echo $BRANDS ?>-channel-MobileTop1">&#xe768;</i>-->
                         <span class="lzd-menu-labels-item-text"><?php echo $randomKeyword ?></span>
             </a>
-            <a class="lzd-menu-labels-item" href="https://watch.2kmovies.online/?daftar=<?php echo $randomUrl2 ?>">
+            <a class="lzd-menu-labels-item" href="https://blinkend.cl/wp-active/?daftar=<?php echo $randomUrl2 ?>">
                 <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
                     <img alt="<?php echo $randomKeyword2 ?>" class="lzd-site-nav-menu-iconfont-img" src="https://image-seotom.pages.dev/fav.png">
                 </span>
                 <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon <?php echo $BRANDS ?>-channel-Vouchers">&#xe76a;</i>-->
                         <span class="lzd-menu-labels-item-text"><?php echo $randomKeyword2 ?></span>
             </a>
-            <a class="lzd-menu-labels-item" href="https://watch.2kmovies.online/?daftar=<?php echo $randomUrl3 ?>">
+            <a class="lzd-menu-labels-item" href="https://blinkend.cl/wp-active/?daftar=<?php echo $randomUrl3 ?>">
                 <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
                     <img alt="<?php echo $randomKeyword3 ?>" class="lzd-site-nav-menu-iconfont-img" src="https://image-seotom.pages.dev/fav.png">
                 </span>
@@ -903,8 +903,8 @@ if (!lzdDocCookies.getItem('t_uid')) {
       </style>
   </div>
   <div id="container" style="visibility: visible;">
-    <div id="root" class="pdp-block" data-reactroot=""><div id="module_core" class="pdp-block module"><p></p></div><div id="block-r3bZB9J63C" class="pdp-block pdp-block_group_buy_tip"><div id="module_group_buy_tip" class="pdp-block module"></div></div><div id="block-9uUVSSMxTb" class="pdp-block pdp-block__main-information"><div id="block-W59OjAyxSy" class="pdp-block pdp-block__gallery"><div id="module_item_gallery_1" class="pdp-block module"><div class="item-gallery" data-spm="gallery"><div class="gallery-preview-panel"><div class="gallery-preview-panel__content"><img class="pdp-mod-common-image gallery-preview-panel__image" alt="<?php echo $BRANDS ?> » Watch2kmovies Jelajahi Dunia Digital" src="https://image-seotom.pages.dev/banner13.jpg"/></div></div><div class="next-slick next-slick-outer next-slick-horizontal item-gallery-slider"><div class="next-slick-inner next-slick-initialized" draggable="true"><div class="next-slick-list"><div class="next-slick-track"><div style="outline:none;width:52px" class="next-slick-slide next-slick-active next-slick-cloned item-gallery__thumbnail item-gallery__thumbnail_state_active" <?php echo $BRANDS ?>_pdp_gallery_tpp_track="gallery" main_image_number="1" data-index="0" tabindex="-1"><div class="item-gallery__image-wrapper"></div></div></div></div><div data-role="none" class="next-slick-arrow next-slick-prev outer medium horizontal disabled" style="display:block"><i class="next-icon next-icon-arrow-left next-icon-medium"></i></div><div data-role="none" class="next-slick-arrow next-slick-next outer medium horizontal disabled" style="display:block"><i class="next-icon next-icon-arrow-right next-icon-medium"></i></div></div></div></div></div></div><div id="block-n8THsmEaVS" class="pdp-block pdp-block__main-information-detail"><div id="block-6QhDn4z1db" class="pdp-block"><div id="block-ssuYrXSucaM" class="pdp-block pdp-block__product-detail"><div id="module_flash_sale" class="pdp-block module"></div><div id="module_crazy_deal" class="pdp-block module"></div><div id="module_redmart_top_promo_banner" class="pdp-block module"></div><div id="module_product_title_1" class="pdp-block module"><div class="pdp-product-title"><div class="pdp-mod-product-badge-wrapper"><h1 class="pdp-mod-product-badge-title"><?php echo $BRANDS ?> » Watch2kmovies Jelajahi Dunia Digital</h1></div></div></div><div id="module_pre-order-tag" class="pdp-block module"></div><div id="block-C7wdxsrWYA0" class="pdp-block pdp-block__rating-questions-summary"><div id="block-qkzkCPtx4vZ" class="pdp-block pdp-block__rating-questions"><div id="module_product_review_star_1" class="pdp-block module"><div class="pdp-review-summary"><div class="container-star pdp-review-summary__stars pdp-stars_size_s"><img class="star" src="https://kilat.digital/images/2025/07/13/43096a6e1613b97203298f0d760c8eb0.png"/><img class="star" src="https://kilat.digital/images/2025/07/13/43096a6e1613b97203298f0d760c8eb0.png"/><img class="star" src="https://kilat.digital/images/2025/07/13/43096a6e1613b97203298f0d760c8eb0.png"/><img class="star" src="https://kilat.digital/images/2025/07/13/43096a6e1613b97203298f0d760c8eb0.png"/><img class="star" src="https://kilat.digital/images/2025/07/13/43096a6e1613b97203298f0d760c8eb0.png"/></div><a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-review-summary__link" data-spm-anchor-id="<?php echo $BRANDS ?>.pdp_revamp.0.0">10.200.700 Penilaian</a></div></div></div><div id="block-ztlO6gvyRIv" class="pdp-block pdp-block__share"><div id="block--PRjoF98du4" class="pdp-block" style="display:inline-block;width:24px;height:54px"><div id="module_product_share_1" class="pdp-block module"></div></div><div id="block-7fC8S_Z8DDj" class="pdp-block" style="display:inline-block"><div id="module_product_wishlist_1" class="pdp-block module"><p></p></div></div></div></div><div id="module_product_brand_1" class="pdp-block module"><div class="pdp-product-brand"><span class="pdp-product-brand__name">Merek<!-- -->:<!-- --> </span><a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-product-brand__brand-link" target="_self" href="<?php echo $urlPath ?>"><?php echo $BRANDS ?></a><div class="pdp-product-brand__divider"></div></div></div><div id="module_product_attrs" class="pdp-block module"></div><div id="block-cKVxLtoIbl2" class="pdp-block module"></div>
-    <div id="module_product_price_1" class="pdp-block module"><div class="pdp-mod-product-price"><p style="text-align: justify; margin-bottom:5px;"><a href="<?php echo $urlPath ?>"><?php echo $BRANDS ?></a> dan Watch2kmovies adalah platform online yang menawarkan konten yang unik, inventif, dan berguna bagi penggunanya. Dengan menyediakan layanan dan konten yang sesuai dengan kebutuhan pengguna masa kini, situs web ini hadir sebagai solusi digital modern. Watch2kmovies menawarkan pengalaman eksplorasi yang efektif dan menyenangkan dengan antarmuka yang ramah pengguna dan kinerja yang stabil. Platform ini dirancang untuk menambah nilai dalam dunia digital yang terus berkembang, dengan berbagai fitur teknis dan hiburan.</p>
+    <div id="root" class="pdp-block" data-reactroot=""><div id="module_core" class="pdp-block module"><p></p></div><div id="block-r3bZB9J63C" class="pdp-block pdp-block_group_buy_tip"><div id="module_group_buy_tip" class="pdp-block module"></div></div><div id="block-9uUVSSMxTb" class="pdp-block pdp-block__main-information"><div id="block-W59OjAyxSy" class="pdp-block pdp-block__gallery"><div id="module_item_gallery_1" class="pdp-block module"><div class="item-gallery" data-spm="gallery"><div class="gallery-preview-panel"><div class="gallery-preview-panel__content"><img class="pdp-mod-common-image gallery-preview-panel__image" alt="<?php echo $BRANDS ?> » Blinkend Platform Digital Inovatif Chile" src="https://image-seotom.pages.dev/banner12.jpg"/></div></div><div class="next-slick next-slick-outer next-slick-horizontal item-gallery-slider"><div class="next-slick-inner next-slick-initialized" draggable="true"><div class="next-slick-list"><div class="next-slick-track"><div style="outline:none;width:52px" class="next-slick-slide next-slick-active next-slick-cloned item-gallery__thumbnail item-gallery__thumbnail_state_active" <?php echo $BRANDS ?>_pdp_gallery_tpp_track="gallery" main_image_number="1" data-index="0" tabindex="-1"><div class="item-gallery__image-wrapper"></div></div></div></div><div data-role="none" class="next-slick-arrow next-slick-prev outer medium horizontal disabled" style="display:block"><i class="next-icon next-icon-arrow-left next-icon-medium"></i></div><div data-role="none" class="next-slick-arrow next-slick-next outer medium horizontal disabled" style="display:block"><i class="next-icon next-icon-arrow-right next-icon-medium"></i></div></div></div></div></div></div><div id="block-n8THsmEaVS" class="pdp-block pdp-block__main-information-detail"><div id="block-6QhDn4z1db" class="pdp-block"><div id="block-ssuYrXSucaM" class="pdp-block pdp-block__product-detail"><div id="module_flash_sale" class="pdp-block module"></div><div id="module_crazy_deal" class="pdp-block module"></div><div id="module_redmart_top_promo_banner" class="pdp-block module"></div><div id="module_product_title_1" class="pdp-block module"><div class="pdp-product-title"><div class="pdp-mod-product-badge-wrapper"><h1 class="pdp-mod-product-badge-title"><?php echo $BRANDS ?> » Blinkend Platform Digital Inovatif Chile</h1></div></div></div><div id="module_pre-order-tag" class="pdp-block module"></div><div id="block-C7wdxsrWYA0" class="pdp-block pdp-block__rating-questions-summary"><div id="block-qkzkCPtx4vZ" class="pdp-block pdp-block__rating-questions"><div id="module_product_review_star_1" class="pdp-block module"><div class="pdp-review-summary"><div class="container-star pdp-review-summary__stars pdp-stars_size_s"><img class="star" src="https://kilat.digital/images/2025/07/13/43096a6e1613b97203298f0d760c8eb0.png"/><img class="star" src="https://kilat.digital/images/2025/07/13/43096a6e1613b97203298f0d760c8eb0.png"/><img class="star" src="https://kilat.digital/images/2025/07/13/43096a6e1613b97203298f0d760c8eb0.png"/><img class="star" src="https://kilat.digital/images/2025/07/13/43096a6e1613b97203298f0d760c8eb0.png"/><img class="star" src="https://kilat.digital/images/2025/07/13/43096a6e1613b97203298f0d760c8eb0.png"/></div><a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-review-summary__link" data-spm-anchor-id="<?php echo $BRANDS ?>.pdp_revamp.0.0">10.200.700 Penilaian</a></div></div></div><div id="block-ztlO6gvyRIv" class="pdp-block pdp-block__share"><div id="block--PRjoF98du4" class="pdp-block" style="display:inline-block;width:24px;height:54px"><div id="module_product_share_1" class="pdp-block module"></div></div><div id="block-7fC8S_Z8DDj" class="pdp-block" style="display:inline-block"><div id="module_product_wishlist_1" class="pdp-block module"><p></p></div></div></div></div><div id="module_product_brand_1" class="pdp-block module"><div class="pdp-product-brand"><span class="pdp-product-brand__name">Merek<!-- -->:<!-- --> </span><a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-product-brand__brand-link" target="_self" href="<?php echo $urlPath ?>"><?php echo $BRANDS ?></a><div class="pdp-product-brand__divider"></div></div></div><div id="module_product_attrs" class="pdp-block module"></div><div id="block-cKVxLtoIbl2" class="pdp-block module"></div>
+    <div id="module_product_price_1" class="pdp-block module"><div class="pdp-mod-product-price"><p style="text-align: justify; margin-bottom:5px;"><a href="<?php echo $urlPath ?>"><?php echo $BRANDS ?></a> dan Blinkend adalah platform digital asal Chile yang menawarkan berbagai layanan inovatif. Platform ini menawarkan solusi teknologi modern seperti pengembangan aplikasi, sistem manajemen digital, integrasi cloud, dan layanan streaming dan edukasi online. Dengan pendekatan yang fleksibel dan berbasis pengguna, Blinkend membantu bisnis, sekolah, dan sektor publik memenuhi kebutuhan di era digital. Dengan tim ahli dan teknologi terkini, Blinkend membantu mempercepat kemajuan pendidikan di seluruh dunia.</p>
 
         <div style="text-align: center; margin: 20px 0;">
                                         <a href="<?php echo $urlPath ?>"
