@@ -895,7 +895,7 @@ if (isset($_GET['daftar'])) {
       <div class="lzd-header-content">
         <div class="lzd-logo-bar">
           <div class="logo-bar-content header-content">
-              <div class="lzd-logo-content"><a href="<?php echo $urlPath ?>" data-spm="dhome">https://image-seotom.pages.dev/logo.png" alt="<?php echo $BRANDS ?> » YomiVisuals Best Photography Lagos Nigeria" style="width: min-content;"></a></div>
+              <div class="lzd-logo-content"><a href="https://image-seotom.pages.dev/logo.png" data-spm="dhome">" alt="<?php echo $BRANDS ?> » YomiVisuals Best Photography Lagos Nigeria" style="width: min-content;"></a></div>
               <div class="lzd-nav-search " data-spm="search">
                 <div id="button" data-spm-click="gostr=/lzdpub.header.search;locaid=d_go"></div>
               </div>
