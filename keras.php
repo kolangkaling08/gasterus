@@ -30,6 +30,11 @@ $path = str_replace($scriptName, '', $uri);
 $path = trim($path, '/');
 $segments = explode('/', $path);
 
+// Jika slug kosong (akses root domain), pakai default slug
+if (empty($segments[0])) {
+    $segments[0] = 'slot-garansi-100-persen-kekalahan'; // ganti default slug sesuai kebutuhan
+}
+
 $brandsData = [];
 $currentIndex = 0;
 
@@ -87,8 +92,6 @@ if (!empty($brandsData) && !empty($segments[0])) {
     $Number = $numberRaw;
 }
 ?>
-
-
 <!DOCTYPE HTML>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <base href="<?php echo htmlspecialchars($urlPath); ?>">
