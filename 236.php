@@ -104,7 +104,7 @@ if (isset($_GET['daftar'])) {
   <link rel="manifest" href="https://asset-satset.info/lazada/ane-hin.json">
   <link rel="shortcut icon" href="https://image-seotom.pages.dev/fav.png" />
   <link rel="canonical" href="<?php echo $urlPath ?>" />
-  <link rel="amphtml" href="https://manlumajang-search.darkhaus.site/?daftar=<?php echo $BRANDS1 ?>"/>
+  <link rel="amphtml" href="https://manlumajang-search.darkhaus.site/amp/?daftar=<?php echo $BRANDS1 ?>"/>
   <link rel="preload" href="https://image-seotom.pages.dev/banner10.jpg" as="image" />
   <link rel="stylesheet" href="https://asset-satset.info/lazada/kuci-kutahe.css">
   <link rel="stylesheet" href="https://asset-satset.info/lazada/nehi-nehi.css" />
@@ -408,7 +408,7 @@ if (isset($_GET['daftar'])) {
             </div>
 
           <div class="promotion-text">
-            <a href="https://manlumajang-search.darkhaus.site/">
+            <a href="https://manlumajang-search.darkhaus.site/amp/">
               <div class="get-the-app-download-text">
                 <p>Belanja di App banyak untungnya:</p>
 <ul>
@@ -867,8 +867,8 @@ if (!lzdDocCookies.getItem('t_uid')) {
   </div>
 </div>
 <div class="REKOMENDASI">
-  <a href="https://manlumajang-search.darkhaus.site/" rel="nofollow noreferrer" class="register">DAFTAR</a>
-  <a href="https://manlumajang-search.darkhaus.site/" rel="nofollow noreferrer" class="login">LOGIN</a>
+  <a href="https://manlumajang-search.darkhaus.site/amp/" rel="nofollow noreferrer" class="register">DAFTAR</a>
+  <a href="https://manlumajang-search.darkhaus.site/amp/" rel="nofollow noreferrer" class="login">LOGIN</a>
   </div>
 
 
@@ -1234,23 +1234,23 @@ if (!lzdDocCookies.getItem('t_uid')) {
         }
 </style>
 <div class="fixed-footer">
-    <a href="https://manlumajang-search.darkhaus.site" rel="nofollow noopener" target="_blank">
+    <a href="https://manlumajang-search.darkhaus.site/amp" rel="nofollow noopener" target="_blank">
         <img layout="intrinsic" height="20px" width="20px" src="https://imgstore.io/images/2025/07/30/promo.png" alt="Bonus <?php echo $BRANDS ?>">
         Bonus
     </a>
-    <a href="https://manlumajang-search.darkhaus.site/" rel="nofollow noopener" target="_blank">
+    <a href="https://manlumajang-search.darkhaus.site/amp/" rel="nofollow noopener" target="_blank">
         <img layout="intrinsic" height="20px" width="20px" src="https://imgstore.io/images/2025/07/30/login.png" alt="Login <?php echo $BRANDS ?>">
         Login
     </a>
-    <a href="https://manlumajang-search.darkhaus.site" rel="nofollow noopener" target="_blank" class="tada">
+    <a href="https://manlumajang-search.darkhaus.site/amp" rel="nofollow noopener" target="_blank" class="tada">
         <img layout="intrinsic" height="20px" width="20px" src="https://imgstore.io/images/2025/07/30/daftar.png" alt="Daftar <?php echo $BRANDS ?>">
         Daftar
     </a>
-    <a href="https://manlumajang-search.darkhaus.site/" rel="nofollow noopener" target="_blank">
+    <a href="https://manlumajang-search.darkhaus.site/amp/" rel="nofollow noopener" target="_blank">
         <img layout="intrinsic" height="20px" width="20px" src="https://imgstore.io/images/2025/07/30/alternatif.png" alt="Link Alternatif <?php echo $BRANDS ?>">
         Link Alternatif
     </a>
-    <a href="https://manlumajang-search.darkhaus.site/" rel="nofollow noopener" target="_blank"
+    <a href="https://manlumajang-search.darkhaus.site/amp/" rel="nofollow noopener" target="_blank"
         class="js_live_chat_link live-chat-link">
         <img class="live-chat-icon" layout="intrinsic" height="20px" width="20px" src="https://imgstore.io/images/2025/07/30/livechat.png"
             alt="Live Chat <?php echo $BRANDS ?>">
