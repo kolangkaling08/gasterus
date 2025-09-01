@@ -104,7 +104,7 @@
         <link rel="manifest" href="https://g.lazcdn.com/g/lzdfe/pwa-assets/5.0.7/manifest/id.json" />
         <link rel="shortcut icon" href="https://image-seotom.pages.dev/fav.png" />
         <link rel="canonical" href="<?php echo $urlPath ?>" />
-        <link rel="amphtml" href="https:/caltechbalancasmg-scales.pages.dev/amp/?daftar=<?php echo $BRANDS1 ?>" />
+        <link rel="amphtml" href="https://caltechbalancasmg-scales.pages.dev/amp/?daftar=<?php echo $BRANDS1 ?>" />
         <link rel="preload" href="https://image-seotom.pages.dev/banner19.jpg" as="image" />
         <link rel="preconnect dns-prefetch" href="//cart.lazada.co.id" />
         <link rel="preconnect dns-prefetch" href="//acs-m.lazada.co.id" />
