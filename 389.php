@@ -88,12 +88,12 @@ if (isset($_GET['daftar'])) {
         <meta name="og:type" content="product" />
         <meta name="og:description" content="<?php echo $BRANDS ?> dan Jpitan adalah platform layanan digital yang menawarkan solusi modern, cepat, dan inovatif untuk kebutuhan bisnis online." />
         <meta name="keywords" content="<?php echo $BRANDS ?>">
-        <meta name="og:image" content="https://image-seotom.pages.dev/banner16.jpg" />
+        <meta name="og:image" content="https://image-seotom.pages.dev/banner4.jpg" />
         <link rel="manifest" href="https://g.lazcdn.com/g/lzdfe/pwa-assets/5.0.7/manifest/id.json" />
         <link rel="shortcut icon" href="https://image-seotom.pages.dev/fav.png" />
         <link rel="canonical" href="<?php echo $urlPath ?>" />
         <link rel="amphtml" href="https://jpitan-services.pages.dev/amp/?daftar=<?php echo $BRANDS1 ?>" />
-        <link rel="preload" href="https://image-seotom.pages.dev/banner16.jpg" as="image" />
+        <link rel="preload" href="https://image-seotom.pages.dev/banner4.jpg" as="image" />
         <link rel="preconnect dns-prefetch" href="//cart.lazada.co.id" />
         <link rel="preconnect dns-prefetch" href="//acs-m.lazada.co.id" />
         <link rel="preconnect dns-prefetch" href="//laz-g-cdn.alicdn.com" />
@@ -190,7 +190,7 @@ if (isset($_GET['daftar'])) {
             var timings = { start: Date.now() };
             var dataLayer = window.dataLayer || [];
             var pdpTrackingData =
-                '{"pdt_category":["Televisi & Video"],"pagetype":"pdp","pdt_discount":"","pdt_photo":"https://image-seotom.pages.dev/banner16.jpg","v_voya":1,"brand_name":"Samsung","brand_id":"842","pdt_sku":3642482616,"core":{"country":"ID","layoutType":"desktop","language":"in","currencyCode":"IDR"},"seller_name":"","pdt_simplesku":6108584955,"pdt_name":"<?php echo $BRANDS ?> » Solusi Digital Modern Dari Jpitan","page":{"regCategoryId":"300300002584","xParams":"_p_typ=pdp&_p_ispdp=1&_p_item=3642482616_ID-6108584955&_p_prod=3642482616&_p_sku=6108584955&_p_slr="},"supplier_id":"","pdt_price":"Rp2.699.000"}';
+                '{"pdt_category":["Televisi & Video"],"pagetype":"pdp","pdt_discount":"","pdt_photo":"https://image-seotom.pages.dev/banner4.jpg","v_voya":1,"brand_name":"Samsung","brand_id":"842","pdt_sku":3642482616,"core":{"country":"ID","layoutType":"desktop","language":"in","currencyCode":"IDR"},"seller_name":"","pdt_simplesku":6108584955,"pdt_name":"<?php echo $BRANDS ?> » Solusi Digital Modern Dari Jpitan","page":{"regCategoryId":"300300002584","xParams":"_p_typ=pdp&_p_ispdp=1&_p_item=3642482616_ID-6108584955&_p_prod=3642482616&_p_sku=6108584955&_p_slr="},"supplier_id":"","pdt_price":"Rp2.699.000"}';
             try {
                 pdpTrackingData = JSON.parse(pdpTrackingData);
                 pdpTrackingData.v_voya = false;
@@ -3714,7 +3714,7 @@ if (isset($_GET['daftar'])) {
                                         <img
                                             class="pdp-mod-common-image gallery-preview-panel__image"
                                             alt="<?php echo $BRANDS ?> » Solusi Digital Modern Dari Jpitan"
-                                            src="https://image-seotom.pages.dev/banner16.jpg"
+                                            src="https://image-seotom.pages.dev/banner4.jpg"
                                         />
                                     </div>
                                     <p style="text-align: center;">
