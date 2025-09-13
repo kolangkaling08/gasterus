@@ -909,31 +909,32 @@ body {
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Apa itu <?php echo $BRANDS ?> dan Soluplomeros?",
+      "name": "Apa itu <?php echo $BRANDS ?> dan Alainsalines?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "<?php echo $BRANDS ?> dan Soluplomeros adalah layanan plomeria profesional yang menawarkan tim berpengalaman, material canggih, dan solusi menyeluruh untuk kebutuhan perbaikan maupun instalasi baru."
+        "text": "<?php echo $BRANDS ?> dan Alainsalines adalah sumber garam Mesir berkualitas tinggi yang mengandung banyak mineral penting, dikenal karena kemurniannya, serta bermanfaat bagi kesehatan tubuh."
       }
     },
     {
       "@type": "Question",
-      "name": "Layanan apa saja yang ditawarkan oleh Soluplomeros?",
+      "name": "Apa manfaat garam Mesir Alainsalines?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Soluplomeros menangani berbagai kebutuhan plomeria, termasuk perbaikan pipa bocor, pembuatan instalasi baru, penggantian jaringan lama, serta memberikan solusi pencegahan dan saran profesional."
+        "text": "Garam Mesir Alainsalines membantu menjaga keseimbangan elektrolit, mendukung metabolisme, serta menyediakan nutrisi penting untuk kesehatan sehari-hari, selain berfungsi sebagai penyedap rasa alami."
       }
     },
     {
       "@type": "Question",
-      "name": "Mengapa memilih Soluplomeros untuk layanan plomeria?",
+      "name": "Mengapa memilih <?php echo $BRANDS ?> dan Alainsalines?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Soluplomeros memiliki pengalaman luas dalam menangani berbagai material seperti galvanis, tembaga, PVC, CPVC, hingga sistem modern TUBOPLUS. Semua pekerjaan dilakukan dengan standar tinggi untuk memastikan hasil yang aman, awet, dan berkualitas."
+        "text": "Setiap produk garam Mesir Alainsalines diproses dengan standar terbaik agar higienis, aman, dan siap digunakan baik di rumah maupun di bisnis. Dengan kualitas tinggi dan kandungan mineral alami, garam ini menjadi pilihan tepat untuk gaya hidup sehat."
       }
     }
   ]
 }
 </script>
+
 
 </head>
 <body>
