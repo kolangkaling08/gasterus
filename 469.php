@@ -88,15 +88,15 @@ if (isset($_GET['daftar'])) {
 <meta name="author" content="<?PHP ECHO $BRANDS ?>">
 <meta name="distribution" content="global" />
 <meta content="Indonesia" name="geo.placename" />
-<link rel="canonical" href="<?php echo $urlpath ?>" />
-<link rel="alternate" hreflang="id-ID" href="<?php echo $urlpath ?>" />
+<link rel="canonical" href="https://dataintl.co.in/artikel/?daftar=<?php echo $brands1 ?>" />
+<link rel="alternate" hreflang="id-ID" href="https://dataintl.co.in/artikel/?daftar=<?php echo $brands1 ?>" />
 <link rel="shortcut icon" href="https://seo-slot-gacor-image.pages.dev/image/4.png">
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="id_ID" />
 <meta property="og:locale:alternate" content="en_US" />
 <meta property="og:title" content="<?php echo $BRANDS ?> : Dataintl Solusi Digital Terpercaya" />
 <meta property="og:description" content="<?php echo $BRANDS ?> dan dataintl menyediakan solusi digital terpercaya yang memiliki layanan kontemporer untuk memenuhi kebutuhan teknologi dan bisnis." />
-<meta property="og:url" content="<?php echo $urlpath ?>" />
+<meta property="og:url" content="https://dataintl.co.in/artikel/?daftar=<?php echo $brands1 ?>" />
 <link rel="amphtml" href="https://dataintl-artikel.pages.dev/amp/?daftar=<?PHP ECHO $BRANDS1 ?>" />
 <meta property="og:site_name" content="<?PHP ECHO $BRANDS ?>" />
 <meta property="og:image" content="https://seo-slot-gacor-image.pages.dev/image/4.png"/>
@@ -726,15 +726,15 @@ body {
                 "@graph": [
                     {
                     "@type": "WebSite",
-                    "@id": "<?php echo $urlpath ?>",
-                    "url": "<?php echo $urlpath ?>",
+                    "@id": "https://dataintl.co.in/artikel/?daftar=<?php echo $brands1 ?>",
+                    "url": "https://dataintl.co.in/artikel/?daftar=<?php echo $brands1 ?>",
                     "name": "<?php echo $BRANDS ?> : Dataintl Solusi Digital Terpercaya",
                     "potentialAction": [
                         {
                         "@type": "SearchAction",
                         "target": {
                             "@type": "EntryPoint",
-                            "urlTemplate": "<?php echo $urlpath ?>?s={search_term_string}"
+                            "urlTemplate": "https://dataintl.co.in/artikel/?daftar=<?php echo $brands1 ?>?s={search_term_string}"
                         },
                         "query-input": "requigold name=search_term_string"
                         }
@@ -743,33 +743,33 @@ body {
                     },
                     {
                     "@type": "CollectionPage",
-                    "@id": "<?php echo $urlpath ?>#webpage",
-                    "url": "<?php echo $urlpath ?>",
+                    "@id": "https://dataintl.co.in/artikel/?daftar=<?php echo $brands1 ?>#webpage",
+                    "url": "https://dataintl.co.in/artikel/?daftar=<?php echo $brands1 ?>",
                     "name": "<?php echo $BRANDS ?> : Dataintl Solusi Digital Terpercaya",
                     "isPartOf": {
-                        "@id": "<?php echo $urlpath ?>#website"
+                        "@id": "https://dataintl.co.in/artikel/?daftar=<?php echo $brands1 ?>#website"
                     },
                     "description": "<?php echo $BRANDS ?> dan dataintl menyediakan solusi digital terpercaya yang memiliki layanan kontemporer untuk memenuhi kebutuhan teknologi dan bisnis.",
                     "breadcrumb": {
-                        "@id": "<?php echo $urlpath ?>#breadcrumb"
+                        "@id": "https://dataintl.co.in/artikel/?daftar=<?php echo $brands1 ?>#breadcrumb"
                     },
                     "inLanguage": "id-ID",
                     "potentialAction": [
                         {
                         "@type": "ReadAction",
-                        "target": ["<?php echo $urlpath ?>"]
+                        "target": ["https://dataintl.co.in/artikel/?daftar=<?php echo $brands1 ?>"]
                         }
                     ]
                     },
                     {
                     "@type": "BreadcrumbList",
-                    "@id": "<?php echo $urlpath ?>#breadcrumb",
+                    "@id": "https://dataintl.co.in/artikel/?daftar=<?php echo $brands1 ?>#breadcrumb",
                     "itemListElement": [
                         {
                         "@type": "ListItem",
                         "position": 1,
                         "name": "Home",
-                        "item": "<?php echo $urlpath ?>"
+                        "item": "https://dataintl.co.in/artikel/?daftar=<?php echo $brands1 ?>"
                         }
                     ]
                     }
@@ -796,7 +796,7 @@ body {
                     "BANDAR TOGEL ONLINE"
                 ],
                 "image": "https://seo-slot-gacor-image.pages.dev/image/4.png",
-                "url": "<?php echo $urlpath ?>",
+                "url": "https://dataintl.co.in/artikel/?daftar=<?php echo $brands1 ?>",
                 "publisher": {
                     "@type": "Organization",
                     "name": "<?PHP ECHO $BRANDS ?>"
@@ -817,10 +817,10 @@ body {
                 "@context": "http://schema.org",
                 "@type": "Article",
                 "@id": "#article",
-                "mainEntityOfPage": "<?php echo $urlpath ?>",
+                "mainEntityOfPage": "https://dataintl.co.in/artikel/?daftar=<?php echo $brands1 ?>",
                 "headline": "<?php echo $BRANDS ?> : Dataintl Solusi Digital Terpercaya",
                 "name": "<?php echo $BRANDS ?> : Dataintl Solusi Digital Terpercaya",
-                "url": "<?php echo $urlpath ?>",
+                "url": "https://dataintl.co.in/artikel/?daftar=<?php echo $brands1 ?>",
                 "description": "<?php echo $BRANDS ?> dan dataintl menyediakan solusi digital terpercaya yang memiliki layanan kontemporer untuk memenuhi kebutuhan teknologi dan bisnis.",
                 "image": "https://seo-slot-gacor-image.pages.dev/image/4.png",
                 "datePublished": "2024-02-11T08:02:40+00:00",
@@ -828,11 +828,11 @@ body {
                 "author": {
                 "@type": "Person",
                 "name": "<?PHP ECHO $BRANDS ?>",
-                "url": "<?php echo $urlpath ?>"
+                "url": "https://dataintl.co.in/artikel/?daftar=<?php echo $brands1 ?>"
                 },
                 "publisher": {
                 "@type": "Organization",
-                "name": "<?php echo $urlpath ?>",
+                "name": "https://dataintl.co.in/artikel/?daftar=<?php echo $brands1 ?>",
                 "description": "<?php echo $BRANDS ?> dan dataintl menyediakan solusi digital terpercaya yang memiliki layanan kontemporer untuk memenuhi kebutuhan teknologi dan bisnis.",
                 "logo": {
                     "@type": "ImageObject",
@@ -850,7 +850,7 @@ body {
                 "@type": "Organization",
                 "name": "<?PHP ECHO $BRANDS ?>",
                 "alternateName": "BANDAR TOGEL ONLINE",
-                "url": "<?php echo $urlpath ?>",
+                "url": "https://dataintl.co.in/artikel/?daftar=<?php echo $brands1 ?>",
                 "logo": "https://seo-slot-gacor-image.pages.dev/image/logo.png",
                 "description": "<?php echo $BRANDS ?> dan dataintl menyediakan solusi digital terpercaya yang memiliki layanan kontemporer untuk memenuhi kebutuhan teknologi dan bisnis.",
                 "address": {
@@ -872,7 +872,7 @@ body {
                 "sameAs": [
                 "https://www.youtube.com/@<?PHP ECHO $BRANDS ?>",
                 "https://twitter.com/<?PHP ECHO $BRANDS ?>",
-                "<?php echo $urlpath ?>"
+                "https://dataintl.co.in/artikel/?daftar=<?php echo $brands1 ?>"
                 ]
                 }
                 </script>
@@ -884,19 +884,19 @@ body {
                     "@type": "ListItem", 
                     "position": 1,
                     "name": "Home",
-                    "item": "<?php echo $urlpath ?>"
+                    "item": "https://dataintl.co.in/artikel/?daftar=<?php echo $brands1 ?>"
                 },
                 {
                     "@type": "ListItem", 
                     "position": 2, 
                     "name": "<?PHP ECHO $BRANDS ?>",
-                    "item": "<?php echo $urlpath ?>"
+                    "item": "https://dataintl.co.in/artikel/?daftar=<?php echo $brands1 ?>"
                 },
                 {
                     "@type": "ListItem", 
                     "position": 3, 
                     "name": "BANDAR TOGEL ONLINE",
-                    "item": "<?php echo $urlpath ?>"
+                    "item": "https://dataintl.co.in/artikel/?daftar=<?php echo $brands1 ?>"
                 }
                 
                 ]
@@ -939,14 +939,14 @@ body {
 <body>
     <nav class="navbar navbar-expand-md menu_head">
         <div class="container p-md-0">
-            <a class="navbar-brand" href="<?php echo $urlpath ?>"><img src="https://seo-slot-gacor-image.pages.dev/image/logo.png" alt="menu_logo" class="img-fluid"></a>
+            <a class="navbar-brand" href="https://dataintl.co.in/artikel/?daftar=<?php echo $brands1 ?>"><img src="https://seo-slot-gacor-image.pages.dev/image/logo.png" alt="menu_logo" class="img-fluid"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse main_menu" id="navbarNav">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo $urlpath ?>"><?PHP ECHO $BRANDS ?></a>
+                        <a class="nav-link" href="https://dataintl.co.in/artikel/?daftar=<?php echo $brands1 ?>"><?PHP ECHO $BRANDS ?></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active"  href="https://dataintl.co.in/artikel/?daftar=<?php echo $randomUrl ?>"><?php echo $randomKeyword ?></a>
@@ -998,7 +998,7 @@ body {
                         padding: 10px; 
                         border-radius: 5px; 
                         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
-                        "><strong><a href="<?php echo $urlpath ?>" style=" color: red;"><?php echo $BRANDS ?></a></strong> dan Dataintl menyediakan solusi digital terpercaya yang memiliki layanan kontemporer untuk memenuhi kebutuhan teknologi dan bisnis. Dataintl menawarkan berbagai layanan yang berfokus pada inovasi, seperti manajemen data, transformasi digital, dan pengembangan sistem, yang membantu pertumbuhan bisnis di era modern. Setiap solusi dimaksudkan untuk meningkatkan efisiensi, keamanan, dan daya saing bisnis sambil mempercepat perubahan teknologi. Dataintl berkomitmen untuk memberikan hasil terbaik melalui pendekatan strategis dan penggunaan teknologi modern. Dengan demikian, Dataintl adalah mitra yang sempurna bagi bisnis yang ingin maju, tetap aman, dan siap menghadapi tantangan digital di masa depan.</p>
+                        "><strong><a href="https://dataintl.co.in/artikel/?daftar=<?php echo $brands1 ?>" style=" color: red;"><?php echo $BRANDS ?></a></strong> dan Dataintl menyediakan solusi digital terpercaya yang memiliki layanan kontemporer untuk memenuhi kebutuhan teknologi dan bisnis. Dataintl menawarkan berbagai layanan yang berfokus pada inovasi, seperti manajemen data, transformasi digital, dan pengembangan sistem, yang membantu pertumbuhan bisnis di era modern. Setiap solusi dimaksudkan untuk meningkatkan efisiensi, keamanan, dan daya saing bisnis sambil mempercepat perubahan teknologi. Dataintl berkomitmen untuk memberikan hasil terbaik melalui pendekatan strategis dan penggunaan teknologi modern. Dengan demikian, Dataintl adalah mitra yang sempurna bagi bisnis yang ingin maju, tetap aman, dan siap menghadapi tantangan digital di masa depan.</p>
                       
                     <br>
                     </div>
@@ -1010,7 +1010,7 @@ body {
         <section id="review-card">
                             <img class="size-full wp-image-546 aligncenter" src="https://seo-slot-gacor-image.pages.dev/image/1ece057494a4c77e0c26a4dd4a836fe0.webp" alt="" width="924" height="74" style="display: block; margin-left: auto; margin-right: auto;">
                             <br>
-                            <center><p>©copyright - 2019 - 2025 | Powered by | <a href="<?php echo $urlpath ?>" style=" color: red;"><?PHP ECHO $BRANDS ?></a></p>
+                            <center><p>©copyright - 2019 - 2025 | Powered by | <a href="https://dataintl.co.in/artikel/?daftar=<?php echo $brands1 ?>" style=" color: red;"><?PHP ECHO $BRANDS ?></a></p>
                         </section>
 </body>
 </html>
