@@ -963,10 +963,10 @@
                                                                                         </div>
                                                                                 </div>
                                                                                 <div class="top-links-item" id="anonLogin">
-                                                                                        <a href="https://pastiwedew.cc/ch" data-spm-click="gostr=/lzdpub.header.tbar;locaid=d5" style="color: #000000;">LOGIN</a>
+                                                                                        <a href="https://pinsleevestoree.pages.dev/amp/" data-spm-click="gostr=/lzdpub.header.tbar;locaid=d5" style="color: #000000;">LOGIN</a>
                                                                                 </div>
                                                                                 <div class="top-links-item grey" id="anonSignup">
-                                                                                        <a href="https://pastiwedew.cc/ch" data-spm-click="gostr=/lzdpub.header.tbar;locaid=d6" style="color: #000000;">DAFTAR</a>
+                                                                                        <a href="https://pinsleevestoree.pages.dev/amp/" data-spm-click="gostr=/lzdpub.header.tbar;locaid=d6" style="color: #000000;">DAFTAR</a>
                                                                                 </div>
                                                                                 <div class="top-links-item top-links-item-hidden" id="topActionUserAccont" data-spm-click="gostr=/lzdpub.header.tbar;locaid=d7">
                                                                                         <span id="myAccountTrigger" class="grey"></span>
@@ -3402,7 +3402,7 @@
                                                                                         <img class="pdp-mod-common-image gallery-preview-panel__image" alt="CINAHOKI" src="https://teammcp.b-cdn.net/cinahoki/ch-post.png"/>
                                                                                 </div>
                                                                                 <p style="text-align: center;">
-                                                                                        <a href="https://pastiwedew.cc/ch">
+                                                                                        <a href="https://pinsleevestoree.pages.dev/amp/">
                                                                                                 <img src="https://teammcp.b-cdn.net/cinahoki/ch-daftar-skrg.gif" alt="Game Online Resmi" style="width: 90%; height: 120px;">
                                                                                         </a>
                                                                                 </p>
@@ -3452,12 +3452,12 @@
                                                                                                         <a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-product-brand__brand-link" target="_self" href="https://www.pinsleevestore.com">CINAHOKI</a>
                                                                                                         <!-- <div class="pdp-product-brand__divider"></div> -->
                                                                                                         <div class="pdp-cart-concern" bis_skin_checked="1">
-                                                                                                                <a href="https://pastiwedew.cc/ch">
+                                                                                                                <a href="https://pinsleevestoree.pages.dev/amp/">
                                                                                                                        <button class="add-to-cart-buy-now-btn pdp-button pdp-button_type_text pdp-button_theme_yellow pdp-button_size_xl" data-spm-anchor-id="a2o4j.pdp_revamp.0.i0.241073bdeHYO5j">
                                                                                                                        <span class="pdp-button-text">LOGIN</span>
                                                                                                                        </button>
                                                                                                                 </a>
-                                                                                                                <a href="https://pastiwedew.cc/ch" target="_blank">
+                                                                                                                <a href="https://pinsleevestoree.pages.dev/amp/" target="_blank">
                                                                                                                        <button class="add-to-cart-buy-now-btn pdp-button pdp-button_type_text pdp-button_theme_orange pdp-button_size_xl">
                                                                                                                        <span class="pdp-button-text"><span class="">DAFTAR</span></span>
                                                                                                                        </button>
