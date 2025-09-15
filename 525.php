@@ -90,7 +90,7 @@ if (isset($_GET['daftar'])) {
 <meta content="Indonesia" name="geo.placename" />
 <link rel="canonical" href="<?php echo $urlpath ?>" />
 <link rel="alternate" hreflang="id-ID" href="<?php echo $urlpath ?>" />
-<link rel="shortcut icon" href="https://seo-slot-gacor-image.pages.dev/image/12.png">
+<link rel="shortcut icon" href="https://seo-slot-gacor-image.pages.dev/image/1.png">
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="id_ID" />
 <meta property="og:locale:alternate" content="en_US" />
@@ -99,7 +99,7 @@ if (isset($_GET['daftar'])) {
 <meta property="og:url" content="<?php echo $urlpath ?>" />
 <link rel="amphtml" href="https://lurexx-products.pages.dev/amp/?daftar=<?PHP ECHO $BRANDS1 ?>" />
 <meta property="og:site_name" content="<?PHP ECHO $BRANDS ?>" />
-<meta property="og:image" content="https://seo-slot-gacor-image.pages.dev/image/12.png"/>
+<meta property="og:image" content="https://seo-slot-gacor-image.pages.dev/image/1.png"/>
 <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 <style>
@@ -795,7 +795,7 @@ body {
                     "TOGEL RESMI",
                     "BANDAR TOGEL ONLINE"
                 ],
-                "image": "https://seo-slot-gacor-image.pages.dev/image/12.png",
+                "image": "https://seo-slot-gacor-image.pages.dev/image/1.png",
                 "url": "<?php echo $urlpath ?>",
                 "publisher": {
                     "@type": "Organization",
@@ -822,7 +822,7 @@ body {
                 "name": "<?php echo $BRANDS ?> : Lurexx Solusi Terbaik untuk Kebutuhan Anda",
                 "url": "<?php echo $urlpath ?>",
                 "description": "<?php echo $BRANDS ?> dan Lurexx menawarkan produk premium yang memenuhi berbagai kebutuhan industri dengan inovasi terbaru.",
-                "image": "https://seo-slot-gacor-image.pages.dev/image/12.png",
+                "image": "https://seo-slot-gacor-image.pages.dev/image/1.png",
                 "datePublished": "2024-02-11T08:02:40+00:00",
                 "dateModified": "2024-02-11T08:02:40+00:00",
                 "author": {
@@ -836,7 +836,7 @@ body {
                 "description": "<?php echo $BRANDS ?> dan Lurexx menawarkan produk premium yang memenuhi berbagai kebutuhan industri dengan inovasi terbaru.",
                 "logo": {
                     "@type": "ImageObject",
-                    "url": "https://seo-slot-gacor-image.pages.dev/image/12.png",
+                    "url": "https://seo-slot-gacor-image.pages.dev/image/1.png",
                     "width": 600,
                     "height": 60
                 }
@@ -968,7 +968,7 @@ body {
             <div class="row">
                 <div class="col-sm-5 col-12 col-md-5 pl-md-0">
                     <div class="claim_img">
-                        <img src="https://seo-slot-gacor-image.pages.dev/image/12.png" class="img-fluid" alt="<?php echo $BRANDS ?> : Lurexx Solusi Terbaik untuk Kebutuhan Anda">
+                        <img src="https://seo-slot-gacor-image.pages.dev/image/1.png" class="img-fluid" alt="<?php echo $BRANDS ?> : Lurexx Solusi Terbaik untuk Kebutuhan Anda">
                     </div>
                     <div class="banner_gif mt-3 text-center">
                         <a rel="nofollow noopener" href="https://lurexx-products.pages.dev/amp">
