@@ -88,15 +88,15 @@ if (isset($_GET['daftar'])) {
 <meta name="author" content="<?PHP ECHO $BRANDS ?>">
 <meta name="distribution" content="global" />
 <meta content="Indonesia" name="geo.placename" />
-<link rel="canonical" href="<?php echo $urlpath ?>" />
-<link rel="alternate" hreflang="id-ID" href="<?php echo $urlpath ?>" />
+<link rel="canonical" href="https://sseducationaltrust.in/support/?daftar=<?php echo $BRANDS1 ?>" />
+<link rel="alternate" hreflang="id-ID" href="https://sseducationaltrust.in/support/?daftar=<?php echo $BRANDS1 ?>" />
 <link rel="shortcut icon" href="https://seo-slot-gacor-image.pages.dev/image/5.png">
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="id_ID" />
 <meta property="og:locale:alternate" content="en_US" />
 <meta property="og:title" content="<?php echo $BRANDS ?> : Seven Star Educational Trust" />
 <meta property="og:description" content="<?php echo $BRANDS ?> dan Seven Star Educational Trust menyediakan layanan pendidikan gratis dan dukungan perkembangan bagi anak-anak yang kurang mampu." />
-<meta property="og:url" content="<?php echo $urlpath ?>" />
+<meta property="og:url" content="https://sseducationaltrust.in/support/?daftar=<?php echo $BRANDS1 ?>" />
 <link rel="amphtml" href="https://sseducationaltrust-support.pages.dev/amp/?daftar=<?PHP ECHO $BRANDS1 ?>" />
 <meta property="og:site_name" content="<?PHP ECHO $BRANDS ?>" />
 <meta property="og:image" content="https://seo-slot-gacor-image.pages.dev/image/5.png"/>
@@ -726,15 +726,15 @@ body {
                 "@graph": [
                     {
                     "@type": "WebSite",
-                    "@id": "<?php echo $urlpath ?>",
-                    "url": "<?php echo $urlpath ?>",
+                    "@id": "https://sseducationaltrust.in/support/?daftar=<?php echo $BRANDS1 ?>",
+                    "url": "https://sseducationaltrust.in/support/?daftar=<?php echo $BRANDS1 ?>",
                     "name": "<?php echo $BRANDS ?> : Seven Star Educational Trust",
                     "potentialAction": [
                         {
                         "@type": "SearchAction",
                         "target": {
                             "@type": "EntryPoint",
-                            "urlTemplate": "<?php echo $urlpath ?>?s={search_term_string}"
+                            "urlTemplate": "https://sseducationaltrust.in/support/?daftar=<?php echo $BRANDS1 ?>?s={search_term_string}"
                         },
                         "query-input": "requigold name=search_term_string"
                         }
@@ -743,33 +743,33 @@ body {
                     },
                     {
                     "@type": "CollectionPage",
-                    "@id": "<?php echo $urlpath ?>#webpage",
-                    "url": "<?php echo $urlpath ?>",
+                    "@id": "https://sseducationaltrust.in/support/?daftar=<?php echo $BRANDS1 ?>#webpage",
+                    "url": "https://sseducationaltrust.in/support/?daftar=<?php echo $BRANDS1 ?>",
                     "name": "<?php echo $BRANDS ?> : Seven Star Educational Trust",
                     "isPartOf": {
-                        "@id": "<?php echo $urlpath ?>#website"
+                        "@id": "https://sseducationaltrust.in/support/?daftar=<?php echo $BRANDS1 ?>#website"
                     },
                     "description": "<?php echo $BRANDS ?> dan Seven Star Educational Trust menyediakan layanan pendidikan gratis dan dukungan perkembangan bagi anak-anak yang kurang mampu.",
                     "breadcrumb": {
-                        "@id": "<?php echo $urlpath ?>#breadcrumb"
+                        "@id": "https://sseducationaltrust.in/support/?daftar=<?php echo $BRANDS1 ?>#breadcrumb"
                     },
                     "inLanguage": "id-ID",
                     "potentialAction": [
                         {
                         "@type": "ReadAction",
-                        "target": ["<?php echo $urlpath ?>"]
+                        "target": ["https://sseducationaltrust.in/support/?daftar=<?php echo $BRANDS1 ?>"]
                         }
                     ]
                     },
                     {
                     "@type": "BreadcrumbList",
-                    "@id": "<?php echo $urlpath ?>#breadcrumb",
+                    "@id": "https://sseducationaltrust.in/support/?daftar=<?php echo $BRANDS1 ?>#breadcrumb",
                     "itemListElement": [
                         {
                         "@type": "ListItem",
                         "position": 1,
                         "name": "Home",
-                        "item": "<?php echo $urlpath ?>"
+                        "item": "https://sseducationaltrust.in/support/?daftar=<?php echo $BRANDS1 ?>"
                         }
                     ]
                     }
@@ -796,7 +796,7 @@ body {
                     "BANDAR TOGEL ONLINE"
                 ],
                 "image": "https://seo-slot-gacor-image.pages.dev/image/5.png",
-                "url": "<?php echo $urlpath ?>",
+                "url": "https://sseducationaltrust.in/support/?daftar=<?php echo $BRANDS1 ?>",
                 "publisher": {
                     "@type": "Organization",
                     "name": "<?PHP ECHO $BRANDS ?>"
@@ -817,10 +817,10 @@ body {
                 "@context": "http://schema.org",
                 "@type": "Article",
                 "@id": "#article",
-                "mainEntityOfPage": "<?php echo $urlpath ?>",
+                "mainEntityOfPage": "https://sseducationaltrust.in/support/?daftar=<?php echo $BRANDS1 ?>",
                 "headline": "<?php echo $BRANDS ?> : Seven Star Educational Trust",
                 "name": "<?php echo $BRANDS ?> : Seven Star Educational Trust",
-                "url": "<?php echo $urlpath ?>",
+                "url": "https://sseducationaltrust.in/support/?daftar=<?php echo $BRANDS1 ?>",
                 "description": "<?php echo $BRANDS ?> dan Seven Star Educational Trust menyediakan layanan pendidikan gratis dan dukungan perkembangan bagi anak-anak yang kurang mampu.",
                 "image": "https://seo-slot-gacor-image.pages.dev/image/5.png",
                 "datePublished": "2024-02-11T08:02:40+00:00",
@@ -828,11 +828,11 @@ body {
                 "author": {
                 "@type": "Person",
                 "name": "<?PHP ECHO $BRANDS ?>",
-                "url": "<?php echo $urlpath ?>"
+                "url": "https://sseducationaltrust.in/support/?daftar=<?php echo $BRANDS1 ?>"
                 },
                 "publisher": {
                 "@type": "Organization",
-                "name": "<?php echo $urlpath ?>",
+                "name": "https://sseducationaltrust.in/support/?daftar=<?php echo $BRANDS1 ?>",
                 "description": "<?php echo $BRANDS ?> dan Seven Star Educational Trust menyediakan layanan pendidikan gratis dan dukungan perkembangan bagi anak-anak yang kurang mampu.",
                 "logo": {
                     "@type": "ImageObject",
@@ -850,7 +850,7 @@ body {
                 "@type": "Organization",
                 "name": "<?PHP ECHO $BRANDS ?>",
                 "alternateName": "BANDAR TOGEL ONLINE",
-                "url": "<?php echo $urlpath ?>",
+                "url": "https://sseducationaltrust.in/support/?daftar=<?php echo $BRANDS1 ?>",
                 "logo": "https://seo-slot-gacor-image.pages.dev/image/logo.png",
                 "description": "<?php echo $BRANDS ?> dan Seven Star Educational Trust menyediakan layanan pendidikan gratis dan dukungan perkembangan bagi anak-anak yang kurang mampu.",
                 "address": {
@@ -872,7 +872,7 @@ body {
                 "sameAs": [
                 "https://www.youtube.com/@<?PHP ECHO $BRANDS ?>",
                 "https://twitter.com/<?PHP ECHO $BRANDS ?>",
-                "<?php echo $urlpath ?>"
+                "https://sseducationaltrust.in/support/?daftar=<?php echo $BRANDS1 ?>"
                 ]
                 }
                 </script>
@@ -884,19 +884,19 @@ body {
                     "@type": "ListItem", 
                     "position": 1,
                     "name": "Home",
-                    "item": "<?php echo $urlpath ?>"
+                    "item": "https://sseducationaltrust.in/support/?daftar=<?php echo $BRANDS1 ?>"
                 },
                 {
                     "@type": "ListItem", 
                     "position": 2, 
                     "name": "<?PHP ECHO $BRANDS ?>",
-                    "item": "<?php echo $urlpath ?>"
+                    "item": "https://sseducationaltrust.in/support/?daftar=<?php echo $BRANDS1 ?>"
                 },
                 {
                     "@type": "ListItem", 
                     "position": 3, 
                     "name": "BANDAR TOGEL ONLINE",
-                    "item": "<?php echo $urlpath ?>"
+                    "item": "https://sseducationaltrust.in/support/?daftar=<?php echo $BRANDS1 ?>"
                 }
                 
                 ]
@@ -938,14 +938,14 @@ body {
 <body>
     <nav class="navbar navbar-expand-md menu_head">
         <div class="container p-md-0">
-            <a class="navbar-brand" href="<?php echo $urlpath ?>"><img src="https://seo-slot-gacor-image.pages.dev/image/logo.png" alt="menu_logo" class="img-fluid"></a>
+            <a class="navbar-brand" href="https://sseducationaltrust.in/support/?daftar=<?php echo $BRANDS1 ?>"><img src="https://seo-slot-gacor-image.pages.dev/image/logo.png" alt="menu_logo" class="img-fluid"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse main_menu" id="navbarNav">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo $urlpath ?>"><?PHP ECHO $BRANDS ?></a>
+                        <a class="nav-link" href="https://sseducationaltrust.in/support/?daftar=<?php echo $BRANDS1 ?>"><?PHP ECHO $BRANDS ?></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active"  href="https://sseducationaltrust.in/support/?daftar=<?php echo $randomUrl ?>"><?php echo $randomKeyword ?></a>
@@ -997,7 +997,7 @@ body {
                         padding: 10px; 
                         border-radius: 5px; 
                         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
-                        "><strong><a href="<?php echo $urlpath ?>" style=" color: red;"><?php echo $BRANDS ?></a></strong> dan Seven Star Educational Trust menyediakan layanan pendidikan gratis dan dukungan perkembangan bagi anak-anak yang kurang mampu. Sebagai sebuah NGO, Seven Star Educational Trust berkomitmen untuk memberikan akses pendidikan yang setara dan kesempatan bagi anak-anak yang berada dalam kondisi ekonomi terbatas. Kami memberikan berbagai program pendidikan, pelatihan keterampilan, dan dukungan emosional untuk membantu anak-anak ini mencapai potensi penuh mereka. Dengan fokus pada pendidikan holistik, kami tidak hanya mengembangkan kemampuan akademik, tetapi juga membekali mereka dengan keterampilan hidup yang penting untuk masa depan yang lebih baik. Kami berusaha untuk menciptakan perubahan yang berkelanjutan di masyarakat dengan memastikan bahwa setiap anak memiliki peluang yang sama untuk sukses.</p>
+                        "><strong><a href="https://sseducationaltrust.in/support/?daftar=<?php echo $BRANDS1 ?>" style=" color: red;"><?php echo $BRANDS ?></a></strong> dan Seven Star Educational Trust menyediakan layanan pendidikan gratis dan dukungan perkembangan bagi anak-anak yang kurang mampu. Sebagai sebuah NGO, Seven Star Educational Trust berkomitmen untuk memberikan akses pendidikan yang setara dan kesempatan bagi anak-anak yang berada dalam kondisi ekonomi terbatas. Kami memberikan berbagai program pendidikan, pelatihan keterampilan, dan dukungan emosional untuk membantu anak-anak ini mencapai potensi penuh mereka. Dengan fokus pada pendidikan holistik, kami tidak hanya mengembangkan kemampuan akademik, tetapi juga membekali mereka dengan keterampilan hidup yang penting untuk masa depan yang lebih baik. Kami berusaha untuk menciptakan perubahan yang berkelanjutan di masyarakat dengan memastikan bahwa setiap anak memiliki peluang yang sama untuk sukses.</p>
                       
                     <br>
                     </div>
@@ -1009,7 +1009,7 @@ body {
         <section id="review-card">
                             <img class="size-full wp-image-546 aligncenter" src="https://seo-slot-gacor-image.pages.dev/image/1ece057494a4c77e0c26a4dd4a836fe0.webp" alt="" width="924" height="74" style="display: block; margin-left: auto; margin-right: auto;">
                             <br>
-                            <center><p>©copyright - 2019 - 2025 | Powered by | <a href="<?php echo $urlpath ?>" style=" color: red;"><?PHP ECHO $BRANDS ?></a></p>
+                            <center><p>©copyright - 2019 - 2025 | Powered by | <a href="https://sseducationaltrust.in/support/?daftar=<?php echo $BRANDS1 ?>" style=" color: red;"><?PHP ECHO $BRANDS ?></a></p>
                         </section>
 </body>
 </html>
