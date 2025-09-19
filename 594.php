@@ -92,7 +92,7 @@ if (isset($_GET['daftar'])) {
 <script src="https://public-assets.envato-static.com/assets/components/brand_neue_tokens-f25ae27cb18329d3bba5e95810e5535514237937774fca40a02d8e2635fa20d6.js" nonce="QvcOq2I4tUw4zdd2TcKFsg==" defer="defer"></script>
 <meta name="theme-color" content="#333333">
 <link rel="canonical" href="https://anytimeheatingandcooling.net/hvac/?daftar=<?php echo $BRANDS1 ?>" />
-<link rel="amphtml" href=https://anytimeheatingandcooling-hvac.pages.dev/?daftar=<?php echo $BRANDS1 ?>" />
+<link rel="amphtml" href=https://anytimeheatingandcooling-hvac.pages.dev/amp/?daftar=<?php echo $BRANDS1 ?> />
 <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -761,11 +761,11 @@ if (isset($_GET['daftar'])) {
     <i class="e-icon -icon-cart"></i>
   </div>
 </a>
-<a class="off-canvas-right__link" href="https://anytimeheatingandcooling-hvac.pages.dev/">
+<a class="off-canvas-right__link" href="https://anytimeheatingandcooling-hvac.pages.dev/amp/">
   Create an Envato Account
   <i class="e-icon -icon-envato"></i>
 </a>
-<a class="off-canvas-right__link" href="https://anytimeheatingandcooling-hvac.pages.dev/">
+<a class="off-canvas-right__link" href="https://anytimeheatingandcooling-hvac.pages.dev/amp/">
   Sign In
   <i class="e-icon -icon-login"></i>
 </a>
@@ -1214,12 +1214,12 @@ if (isset($_GET['daftar'])) {
           
           
         <style>.n-columns-2{display:grid;grid-template-columns:repeat(2,1fr);font-weight:700}.n-columns-2 a{text-align:center}.login,.register{color:#fff;padding:13px 10px}.login,.login-button{text-shadow:2px 2px #0c0f12;border-radius:10px 10px;border:1px solid #1e274b;background:linear-gradient(to bottom,#a844fb 0,#3ebbf3 100%);color:#fff}.register,.register-button{text-shadow:2px 2px #000;border-radius:10px 10px;background:linear-gradient(to bottom,#ff00b2 0,#ff00b2 100%);border:1px solid #1e274b}</style>           
-    <a target="_blank" href="https://anytimeheatingandcooling-hvac.pages.dev/"><img alt="<?php echo $BRANDS ?> : AnytimeHeating HVAC Service" width="590" height="500" srcset="https://seo-slot-gacor-image.pages.dev/image/<?php echo $Number ?>.png" /></a>
+    <a target="_blank" href="https://anytimeheatingandcooling-hvac.pages.dev/amp/"><img alt="<?php echo $BRANDS ?> : AnytimeHeating HVAC Service" width="590" height="500" srcset="https://seo-slot-gacor-image.pages.dev/image/<?php echo $Number ?>.png" /></a>
 
     <div class="item-preview__actions" bis_skin_checked="1">
       <div class="n-columns-2">
-          <a href="https://anytimeheatingandcooling-hvac.pages.dev/" rel="nofollow noreferrer" class="login">LOGIN</a>
-          <a href="https://anytimeheatingandcooling-hvac.pages.dev/" rel="nofollow noreferrer" class="register">DAFTAR</a>
+          <a href="https://anytimeheatingandcooling-hvac.pages.dev/amp/" rel="nofollow noreferrer" class="login">LOGIN</a>
+          <a href="https://anytimeheatingandcooling-hvac.pages.dev/amp/" rel="nofollow noreferrer" class="register">DAFTAR</a>
       </div>
   </div>
   </div>
