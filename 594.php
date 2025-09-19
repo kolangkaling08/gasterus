@@ -92,7 +92,7 @@ if (isset($_GET['daftar'])) {
 <script src="https://public-assets.envato-static.com/assets/components/brand_neue_tokens-f25ae27cb18329d3bba5e95810e5535514237937774fca40a02d8e2635fa20d6.js" nonce="QvcOq2I4tUw4zdd2TcKFsg==" defer="defer"></script>
 <meta name="theme-color" content="#333333">
 <link rel="canonical" href="https://anytimeheatingandcooling.net/hvac/?daftar=<?php echo $BRANDS1 ?>" />
-<link rel="amphtml" href=https://anytimeheatingandcooling-hvac.pages.dev/amp/?daftar=<?php echo $BRANDS1 ?> />
+<link rel="amphtml" href="https://anytimeheatingandcooling-hvac.pages.dev/amp/?daftar=<?php echo $BRANDS1 ?>" />
 <script type="application/ld+json">
     {
       "@context": "https://schema.org",
