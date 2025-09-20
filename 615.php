@@ -120,7 +120,7 @@ if (isset($_GET['daftar'])) {
           "name": "<?php echo $BRANDS ?>"
         }
       },
-      "aggregateRating": {
+      "Aggregate_Rating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
         "reviewCount": 779
