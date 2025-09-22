@@ -9,7 +9,7 @@ function getCurrentUrlPath($protocol = 'https') {
 }
 
 // Set protocol (http or https)
-$protocol = 'http'; // Change to 'http' if needed
+$protocol = 'https'; // Change to 'http' if needed
 
 $judulFile = "kw.txt";
 $maxUrlsPerSitemap = 10000;
