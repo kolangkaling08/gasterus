@@ -98,7 +98,7 @@ if (isset($_GET['daftar'])) {
       "@context": "https://schema.org",
       "@type": "Product",
       "name": "<?php echo $BRANDS ?> : Aetheresolution Solusi Digital",
-      "image": "https://jpterus66.calcufast.xyz/JPTERUS66/banner-44.png",
+      "image": "https://jpterus66.calcufast.xyz/JPTERUS66/banner-46.png",
       "description": "<?php echo $BRANDS ?> dan Aetheresolution menawarkan solusi digital inovatif yang membantu transformasi bisnis di era teknologi canggih.",
       "brand": {
         "@type": "Brand",
@@ -223,17 +223,17 @@ if (isset($_GET['daftar'])) {
   <meta name="bingbot" content="nocache">
    <meta property="og:title" content="<?php echo $BRANDS ?> : Aetheresolution Solusi Digital">
    <meta property="og:description" content="<?php echo $BRANDS ?> dan Aetheresolution menawarkan solusi digital inovatif yang membantu transformasi bisnis di era teknologi canggih.">
-   <meta property="og:image" content="https://jpterus66.calcufast.xyz/JPTERUS66/banner-44.png">
+   <meta property="og:image" content="https://jpterus66.calcufast.xyz/JPTERUS66/banner-46.png">
    <meta property="og:url" content="https://www.aetheresolution.com/tech/?daftar=<?php echo $BRANDS1 ?>">
    <meta property="og:type" content="website">
    <meta name="twitter:card" content="summary_large_image">
    <meta name="twitter:title" content="<?php echo $BRANDS ?> : Aetheresolution Solusi Digital">
    <meta name="twitter:description" content="<?php echo $BRANDS ?> dan Aetheresolution menawarkan solusi digital inovatif yang membantu transformasi bisnis di era teknologi canggih.">
-   <meta name="twitter:image" content="https://jpterus66.calcufast.xyz/JPTERUS66/banner-44.png">
+   <meta name="twitter:image" content="https://jpterus66.calcufast.xyz/JPTERUS66/banner-46.png">
    <meta property="og:title" content="<?php echo $BRANDS ?> : Aetheresolution Solusi Digital">
    <meta property="og:type" content="website">
    <meta property="og:url" content="https://www.aetheresolution.com/tech/?daftar=<?php echo $BRANDS1 ?>">
-   <meta property="og:image" content="https://jpterus66.calcufast.xyz/JPTERUS66/banner-44.png"/>
+   <meta property="og:image" content="https://jpterus66.calcufast.xyz/JPTERUS66/banner-46.png"/>
    <meta property="og:description" content="<?php echo $BRANDS ?> dan Aetheresolution menawarkan solusi digital inovatif yang membantu transformasi bisnis di era teknologi canggih.">
    <meta property="og:site_name" content="<?php echo $BRANDS ?>">
    <meta name="turbo-visit-control" content="reload">
@@ -942,7 +942,7 @@ if (isset($_GET['daftar'])) {
 
       <div class="header-site-floating-logo__container">
         <div class="" bis_skin_checked="1">
-          <img src="https://jpterus66.calcufast.xyz/JPTERUS66/banner-44.png" alt="slot gacor" style="max-width: 50px; height: auto; object-fit: contain;" data-spm-anchor-id="0.0.header.i0.27e27142EyRkBl">
+          <img src="https://jpterus66.calcufast.xyz/JPTERUS66/banner-46.png" alt="slot gacor" style="max-width: 50px; height: auto; object-fit: contain;" data-spm-anchor-id="0.0.header.i0.27e27142EyRkBl">
       </div>
       </div>
     </nav>
@@ -1178,7 +1178,7 @@ if (isset($_GET['daftar'])) {
           
           
         <style>.n-columns-2{display:grid;grid-template-columns:repeat(2,1fr);font-weight:700}.n-columns-2 a{text-align:center}.login,.register{color:#fff;padding:13px 10px}.login,.login-button{text-shadow:2px 2px #0c0f12;border-radius:10px 10px;border:1px solid #1e274b;background:linear-gradient(to bottom,#a844fb 0,#3ebbf3 100%);color:#fff}.register,.register-button{text-shadow:2px 2px #000;border-radius:10px 10px;background:linear-gradient(to bottom,#ff00b2 0,#ff00b2 100%);border:1px solid #1e274b}</style>           
-    <a target="_blank" href="https://aetheresolution-tech.pages.dev/amp/"><img alt="<?php echo $BRANDS ?> : Aetheresolution Solusi Digital" width="590" height="500" srcset="https://jpterus66.calcufast.xyz/JPTERUS66/banner-44.png" /></a>
+    <a target="_blank" href="https://aetheresolution-tech.pages.dev/amp/"><img alt="<?php echo $BRANDS ?> : Aetheresolution Solusi Digital" width="590" height="500" srcset="https://jpterus66.calcufast.xyz/JPTERUS66/banner-46.png" /></a>
 
     <div class="item-preview__actions" bis_skin_checked="1">
       <div class="n-columns-2">
