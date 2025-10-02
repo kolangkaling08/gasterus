@@ -78,8 +78,8 @@ if (isset($_GET['daftar'])) {
 <link rel="preload" href="https://market-resized.envatousercontent.com/themeforest.net/files/649842360/Preview.__large_preview.jpg?auto=format&amp;q=94&amp;cf_fit=crop&amp;gravity=top&amp;h=8000&amp;w=590&amp;s=a86a1e750a3aa931dded70a738bcbdf317e5d9701fc8fe9451a7f86e3e6d4355" as="image" />
 <link rel="preload" href="https://public-assets.envato-static.com/assets/generated_sprites/logos-20f56d7ae7a08da2c6698db678490c591ce302aedb1fcd05d3ad1e1484d3caf9.png" as="image" />
 <link rel="preload" href="https://public-assets.envato-static.com/assets/generated_sprites/common-5af54247f3a645893af51456ee4c483f6530608e9c15ca4a8ac5a6e994d9a340.png" as="image" />
-<title><?php echo $BRANDS ?> : RoyalDH Layanan Kesehatan Digital</title>
-<meta name="description" content="<?php echo $BRANDS ?> dan RoyalDH adalah layanan kesehatan digital yang terpercaya di mana kualitas, keamanan, dan kenyamanan pasien adalah prioritas utama.">
+<title><?php echo $BRANDS ?> : LargeFormatPlotters Solusi Cetak Besar</title>
+<meta name="description" content="<?php echo $BRANDS ?> dan LargeFormatPlotters adalah solusi cetak format besar berkualitas tinggi yang dapat diandalkan untuk kebutuhan bisnis, desain, dan profesional.">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="icon" type="image/x-icon" href="https://jpterus66.calcufast.xyz/JPTERUS66/favicon.png" />
 <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://public-assets.envato-static.com/assets/icons/favicons/apple-touch-icon-72x72-precomposed-ea6fb08063069270d41814bdcea6a36fee5fffaba8ec1f0be6ccf3ebbb63dddb.png" sizes="72x72" />
@@ -92,25 +92,25 @@ if (isset($_GET['daftar'])) {
 <script src="https://public-assets.envato-static.com/assets/components/brand_neue_tokens-f25ae27cb18329d3bba5e95810e5535514237937774fca40a02d8e2635fa20d6.js" nonce="QvcOq2I4tUw4zdd2TcKFsg==" defer="defer"></script>
 <meta name="theme-color" content="#333333">
 <meta name="google-site-verification" content="PWBA7eAg5C72hMOT0jX5pIksOgLMXAqN5y7MfeJuogg" />
-<link rel="canonical" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>" />
-<link rel="amphtml" href="https://royaldh-services.pages.dev/amp/?daftar=<?php echo $BRANDS1 ?>" />
+<link rel="canonical" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>" />
+<link rel="amphtml" href="https://largeformatplotters-print.pages.dev/amp/?daftar=<?php echo $BRANDS1 ?>" />
 <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Product",
-      "name": "<?php echo $BRANDS ?> : RoyalDH Layanan Kesehatan Digital",
+      "name": "<?php echo $BRANDS ?> : LargeFormatPlotters Solusi Cetak Besar",
       "image": "https://jpterus66.calcufast.xyz/JPTERUS66/banner-65.png",
-      "description": "<?php echo $BRANDS ?> dan RoyalDH adalah layanan kesehatan digital yang terpercaya di mana kualitas, keamanan, dan kenyamanan pasien adalah prioritas utama.",
+      "description": "<?php echo $BRANDS ?> dan LargeFormatPlotters adalah solusi cetak format besar berkualitas tinggi yang dapat diandalkan untuk kebutuhan bisnis, desain, dan profesional.",
       "brand": {
         "@type": "Brand",
         "name": "<?php echo $BRANDS ?>"
       },
       "sku": "<?php echo $BRANDS ?>",
       "mpn": "303GCR",
-      "url": "https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>",
+      "url": "https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>",
       "offers": {
         "@type": "Offer",
-        "url": "https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>",
+        "url": "https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>",
         "priceCurrency": "USD",
         "price": "0.00",
         "priceValidUntil": "2025-11-17",
@@ -164,31 +164,31 @@ if (isset($_GET['daftar'])) {
           "@type": "ListItem",
           "position": 1,
           "name": "SLOT",
-          "item": "https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>"
+          "item": "https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "SLOT GACOR",
-          "item": "https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>"
+          "item": "https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "LINK SLOT",
-          "item": "https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>"
+          "item": "https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>"
         },
         {
           "@type": "ListItem",
           "position": 4,
           "name": "SLOT GACOR HARI INI",
-          "item": "https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>"
+          "item": "https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>"
         },
         {
           "@type": "ListItem",
           "position": 5,
-          "name": "<?php echo $BRANDS ?> : RoyalDH Layanan Kesehatan Digital",
-          "item": "https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>"
+          "name": "<?php echo $BRANDS ?> : LargeFormatPlotters Solusi Cetak Besar",
+          "item": "https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>"
         }
       ]
     }
@@ -199,7 +199,7 @@ if (isset($_GET['daftar'])) {
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "<?php echo $BRANDS ?>",
-      "url": "https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>",
+      "url": "https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>",
       "logo": "https://jpterus66.calcufast.xyz/JPTERUS66/logo.png",
       "sameAs": [
         "https://www.facebook.com/k5sugo",
@@ -222,20 +222,20 @@ if (isset($_GET['daftar'])) {
   //]]>
   </script>
   <meta name="bingbot" content="nocache">
-   <meta property="og:title" content="<?php echo $BRANDS ?> : RoyalDH Layanan Kesehatan Digital">
-   <meta property="og:description" content="<?php echo $BRANDS ?> dan RoyalDH adalah layanan kesehatan digital yang terpercaya di mana kualitas, keamanan, dan kenyamanan pasien adalah prioritas utama.">
+   <meta property="og:title" content="<?php echo $BRANDS ?> : LargeFormatPlotters Solusi Cetak Besar">
+   <meta property="og:description" content="<?php echo $BRANDS ?> dan LargeFormatPlotters adalah solusi cetak format besar berkualitas tinggi yang dapat diandalkan untuk kebutuhan bisnis, desain, dan profesional.">
    <meta property="og:image" content="https://jpterus66.calcufast.xyz/JPTERUS66/banner-65.png">
-   <meta property="og:url" content="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+   <meta property="og:url" content="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
    <meta property="og:type" content="website">
    <meta name="twitter:card" content="summary_large_image">
-   <meta name="twitter:title" content="<?php echo $BRANDS ?> : RoyalDH Layanan Kesehatan Digital">
-   <meta name="twitter:description" content="<?php echo $BRANDS ?> dan RoyalDH adalah layanan kesehatan digital yang terpercaya di mana kualitas, keamanan, dan kenyamanan pasien adalah prioritas utama.">
+   <meta name="twitter:title" content="<?php echo $BRANDS ?> : LargeFormatPlotters Solusi Cetak Besar">
+   <meta name="twitter:description" content="<?php echo $BRANDS ?> dan LargeFormatPlotters adalah solusi cetak format besar berkualitas tinggi yang dapat diandalkan untuk kebutuhan bisnis, desain, dan profesional.">
    <meta name="twitter:image" content="https://jpterus66.calcufast.xyz/JPTERUS66/banner-65.png">
-   <meta property="og:title" content="<?php echo $BRANDS ?> : RoyalDH Layanan Kesehatan Digital">
+   <meta property="og:title" content="<?php echo $BRANDS ?> : LargeFormatPlotters Solusi Cetak Besar">
    <meta property="og:type" content="website">
-   <meta property="og:url" content="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+   <meta property="og:url" content="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
    <meta property="og:image" content="https://jpterus66.calcufast.xyz/JPTERUS66/banner-65.png"/>
-   <meta property="og:description" content="<?php echo $BRANDS ?> dan RoyalDH adalah layanan kesehatan digital yang terpercaya di mana kualitas, keamanan, dan kenyamanan pasien adalah prioritas utama.">
+   <meta property="og:description" content="<?php echo $BRANDS ?> dan LargeFormatPlotters adalah solusi cetak format besar berkualitas tinggi yang dapat diandalkan untuk kebutuhan bisnis, desain, dan profesional.">
    <meta property="og:site_name" content="<?php echo $BRANDS ?>">
    <meta name="turbo-visit-control" content="reload">
     <script src="https://public-assets.envato-static.com/assets/market/core/head-d4f3da877553664cb1d5ed45cb42c6ec7e6b00d0c4d164be8747cfd5002a24eb.js" nonce="QvcOq2I4tUw4zdd2TcKFsg=="></script>
@@ -259,7 +259,7 @@ if (isset($_GET['daftar'])) {
         <div class="page__off-canvas--left overflow">
           <div class="off-canvas-left js-off-canvas-left">
   <div class="off-canvas-left__top">
-    <a href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>"><?php echo $BRANDS ?></a>
+    <a href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>"><?php echo $BRANDS ?></a>
   </div>
 
   <div class="off-canvas-left__current-site -color-themeforest">
@@ -271,32 +271,32 @@ if (isset($_GET['daftar'])) {
 </div>
 
 <div class="off-canvas-left__sites is-hidden" id="off-canvas-sites">
-    <a class="off-canvas-left__site" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+    <a class="off-canvas-left__site" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
       <span class="off-canvas-left__site-title">
         Code
       </span>
       <i class="e-icon -icon-right-open"></i>
-</a>    <a class="off-canvas-left__site" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+</a>    <a class="off-canvas-left__site" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
       <span class="off-canvas-left__site-title">
         Video
       </span>
       <i class="e-icon -icon-right-open"></i>
-</a>    <a class="off-canvas-left__site" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+</a>    <a class="off-canvas-left__site" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
       <span class="off-canvas-left__site-title">
         Audio
       </span>
       <i class="e-icon -icon-right-open"></i>
-</a>    <a class="off-canvas-left__site" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+</a>    <a class="off-canvas-left__site" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
       <span class="off-canvas-left__site-title">
         Graphics
       </span>
       <i class="e-icon -icon-right-open"></i>
-</a>    <a class="off-canvas-left__site" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+</a>    <a class="off-canvas-left__site" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
       <span class="off-canvas-left__site-title">
         Photos
       </span>
       <i class="e-icon -icon-right-open"></i>
-</a>    <a class="off-canvas-left__site" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+</a>    <a class="off-canvas-left__site" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
       <span class="off-canvas-left__site-title">
         3D Files
       </span>
@@ -304,7 +304,7 @@ if (isset($_GET['daftar'])) {
 </a></div>
 
   <div class="off-canvas-left__search">
-  <form id="search" action="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>" accept-charset="UTF-8" method="get">
+  <form id="search" action="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>" accept-charset="UTF-8" method="get">
     <div class="search-field -border-none">
       <div class="search-field__input">
         <input id="term" name="term" type="search" placeholder="Search" class="search-field__input-field" />
@@ -318,95 +318,95 @@ if (isset($_GET['daftar'])) {
   <ul>
 
     <li>
-        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-all-items" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-all-items" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
           All Items
 </a>
         <ul class="is-hidden" id="off-canvas-all-items">
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Popular Files</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Popular Files</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Featured Files</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Featured Files</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Top New Files</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Top New Files</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Follow Feed</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Follow Feed</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Top Authors</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Top Authors</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Top New Authors</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Top New Authors</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Public Collections</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Public Collections</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">View All Categories</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">View All Categories</a>
             </li>
         </ul>
 
     </li>
     <li>
-        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-wordpress" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-wordpress" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
           WordPress
 </a>
         <ul class="is-hidden" id="off-canvas-wordpress">
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Show all WordPress</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Show all WordPress</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Popular Items</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Popular Items</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Blog / Magazine</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Blog / Magazine</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">BuddyPress</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">BuddyPress</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Corporate</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Corporate</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Creative</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Creative</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Directory &amp; Listings</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Directory &amp; Listings</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">eCommerce</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">eCommerce</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Education</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Education</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Elementor</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Elementor</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Entertainment</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Entertainment</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Mobile</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Mobile</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Nonprofit</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Nonprofit</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Real Estate</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Real Estate</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Retail</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Retail</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Technology</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Technology</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Wedding</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Wedding</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Miscellaneous</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Miscellaneous</a>
             </li>
             <li>
               <a class="off-canvas-category-link--sub" href="https://www.southboundrva.com/menu"><?php echo $BRANDS ?></a>
@@ -415,300 +415,300 @@ if (isset($_GET['daftar'])) {
 
     </li>
     <li>
-        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-elementor" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-elementor" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
           Elementor
 </a>
         <ul class="is-hidden" id="off-canvas-elementor">
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Template Kits</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Template Kits</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Plugins</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Plugins</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Themes</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Themes</a>
             </li>
         </ul>
 
     </li>
     <li>
 
-        <a class="off-canvas-category-link--empty" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+        <a class="off-canvas-category-link--empty" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
           Hosting
 </a>
     </li>
     <li>
-        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-html" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-html" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
           HTML
 </a>
         <ul class="is-hidden" id="off-canvas-html">
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Show all HTML</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Show all HTML</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Popular Items</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Popular Items</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Admin Templates</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Admin Templates</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Corporate</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Corporate</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Creative</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Creative</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Entertainment</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Entertainment</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Mobile</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Mobile</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Nonprofit</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Nonprofit</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Personal</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Personal</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Retail</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Retail</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Specialty Pages</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Specialty Pages</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Technology</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Technology</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Wedding</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Wedding</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Miscellaneous</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Miscellaneous</a>
             </li>
         </ul>
 
     </li>
     <li>
-        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-shopify" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-shopify" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
           Shopify
 </a>
         <ul class="is-hidden" id="off-canvas-shopify">
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Show all Shopify</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Show all Shopify</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Popular Items</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Popular Items</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Fashion</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Fashion</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Shopping</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Shopping</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Health &amp; Beauty</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Health &amp; Beauty</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Technology</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Technology</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Entertainment</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Entertainment</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Miscellaneous</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Miscellaneous</a>
             </li>
         </ul>
 
     </li>
     <li>
 
-        <a class="off-canvas-category-link--empty" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+        <a class="off-canvas-category-link--empty" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
           Jamstack
 </a>
     </li>
     <li>
-        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-marketing" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-marketing" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
           Marketing
 </a>
         <ul class="is-hidden" id="off-canvas-marketing">
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Show all Marketing</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Show all Marketing</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Popular Items</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Popular Items</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Email Templates</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Email Templates</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Landing Pages</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Landing Pages</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Unbounce Landing Pages</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Unbounce Landing Pages</a>
             </li>
         </ul>
 
     </li>
     <li>
-        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-cms" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-cms" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
           CMS
 </a>
         <ul class="is-hidden" id="off-canvas-cms">
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Show all CMS</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Show all CMS</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Popular Items</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Popular Items</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Concrete5</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Concrete5</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Drupal</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Drupal</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">HubSpot CMS Hub</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">HubSpot CMS Hub</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Joomla</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Joomla</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">MODX Themes</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">MODX Themes</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Moodle</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Moodle</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Webflow</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Webflow</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Weebly</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Weebly</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Miscellaneous</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Miscellaneous</a>
             </li>
         </ul>
 
     </li>
     <li>
-        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-ecommerce" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-ecommerce" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
           eCommerce
 </a>
         <ul class="is-hidden" id="off-canvas-ecommerce">
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Show all eCommerce</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Show all eCommerce</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Popular Items</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Popular Items</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">WooCommerce</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">WooCommerce</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">BigCommerce</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">BigCommerce</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Drupal Commerce</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Drupal Commerce</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Easy Digital Downloads</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Easy Digital Downloads</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Ecwid</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Ecwid</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Magento</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Magento</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">OpenCart</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">OpenCart</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">PrestaShop</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">PrestaShop</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Shopify</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Shopify</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Ubercart</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Ubercart</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">VirtueMart</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">VirtueMart</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Zen Cart</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Zen Cart</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Miscellaneous</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Miscellaneous</a>
             </li>
         </ul>
 
     </li>
     <li>
-        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-ui-templates" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-ui-templates" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
           UI Templates
 </a>
         <ul class="is-hidden" id="off-canvas-ui-templates">
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Popular Items</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Popular Items</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Figma</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Figma</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Adobe XD</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Adobe XD</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Photoshop</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Photoshop</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Sketch</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Sketch</a>
             </li>
         </ul>
 
     </li>
     <li>
 
-        <a class="off-canvas-category-link--empty" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+        <a class="off-canvas-category-link--empty" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
           Plugins
 </a>
     </li>
     <li>
-        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-more" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-more" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
           More
 </a>
         <ul class="is-hidden" id="off-canvas-more">
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Blogging</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Blogging</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Courses</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Courses</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Facebook Templates</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Facebook Templates</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Free Elementor Templates</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Free Elementor Templates</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Free WordPress Themes</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Free WordPress Themes</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Forums</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Forums</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Ghost Themes</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Ghost Themes</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Tumblr</a>
+              <a class="off-canvas-category-link--sub" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Tumblr</a>
             </li>
             <li>
-              <a class="off-canvas-category-link--sub external-link elements-nav__category-link" target="_blank" data-analytics-view-payload="{&quot;eventName&quot;:&quot;view_promotion&quot;,&quot;contextDetail&quot;:&quot;sub nav&quot;,&quot;ecommerce&quot;:{&quot;promotionId&quot;:&quot;Unlimited Creative Assets&quot;,&quot;promotionName&quot;:&quot;Unlimited Creative Assets&quot;,&quot;promotionType&quot;:&quot;elements referral&quot;}}" data-analytics-click-payload="{&quot;eventName&quot;:&quot;select_promotion&quot;,&quot;contextDetail&quot;:&quot;sub nav&quot;,&quot;ecommerce&quot;:{&quot;promotionId&quot;:&quot;Unlimited Creative Assets&quot;,&quot;promotionName&quot;:&quot;Unlimited Creative Assets&quot;,&quot;promotionType&quot;:&quot;elements referral&quot;}}" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Unlimited Creative Assets</a>
+              <a class="off-canvas-category-link--sub external-link elements-nav__category-link" target="_blank" data-analytics-view-payload="{&quot;eventName&quot;:&quot;view_promotion&quot;,&quot;contextDetail&quot;:&quot;sub nav&quot;,&quot;ecommerce&quot;:{&quot;promotionId&quot;:&quot;Unlimited Creative Assets&quot;,&quot;promotionName&quot;:&quot;Unlimited Creative Assets&quot;,&quot;promotionType&quot;:&quot;elements referral&quot;}}" data-analytics-click-payload="{&quot;eventName&quot;:&quot;select_promotion&quot;,&quot;contextDetail&quot;:&quot;sub nav&quot;,&quot;ecommerce&quot;:{&quot;promotionId&quot;:&quot;Unlimited Creative Assets&quot;,&quot;promotionName&quot;:&quot;Unlimited Creative Assets&quot;,&quot;promotionType&quot;:&quot;elements referral&quot;}}" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Unlimited Creative Assets</a>
             </li>
         </ul>
 
     </li>
 
     <li>
-  <a class="elements-nav__category-link external-link" target="_blank" data-analytics-view-payload="{&quot;eventName&quot;:&quot;view_promotion&quot;,&quot;contextDetail&quot;:&quot;site switcher&quot;,&quot;ecommerce&quot;:{&quot;promotionId&quot;:&quot;switcher_mobile_31JUL2024&quot;,&quot;promotionName&quot;:&quot;switcher_mobile_31JUL2024&quot;,&quot;promotionType&quot;:&quot;elements referral&quot;}}" data-analytics-click-payload="{&quot;eventName&quot;:&quot;select_promotion&quot;,&quot;contextDetail&quot;:&quot;site switcher&quot;,&quot;ecommerce&quot;:{&quot;promotionId&quot;:&quot;switcher_mobile_31JUL2024&quot;,&quot;promotionName&quot;:&quot;switcher_mobile_31JUL2024&quot;,&quot;promotionType&quot;:&quot;elements referral&quot;}}" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Unlimited Downloads</a>
+  <a class="elements-nav__category-link external-link" target="_blank" data-analytics-view-payload="{&quot;eventName&quot;:&quot;view_promotion&quot;,&quot;contextDetail&quot;:&quot;site switcher&quot;,&quot;ecommerce&quot;:{&quot;promotionId&quot;:&quot;switcher_mobile_31JUL2024&quot;,&quot;promotionName&quot;:&quot;switcher_mobile_31JUL2024&quot;,&quot;promotionType&quot;:&quot;elements referral&quot;}}" data-analytics-click-payload="{&quot;eventName&quot;:&quot;select_promotion&quot;,&quot;contextDetail&quot;:&quot;site switcher&quot;,&quot;ecommerce&quot;:{&quot;promotionId&quot;:&quot;switcher_mobile_31JUL2024&quot;,&quot;promotionName&quot;:&quot;switcher_mobile_31JUL2024&quot;,&quot;promotionType&quot;:&quot;elements referral&quot;}}" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Unlimited Downloads</a>
 </li>
 
 </ul>
@@ -719,18 +719,18 @@ if (isset($_GET['daftar'])) {
 
         <div class="page__off-canvas--right overflow">
           <div class="off-canvas-right">
-    <a class="off-canvas-right__link--cart" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+    <a class="off-canvas-right__link--cart" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
   Guest Cart
   <div class="shopping-cart-summary is-empty" data-view="cartCount">
     <span class="js-cart-summary-count shopping-cart-summary__count">0</span>
     <i class="e-icon -icon-cart"></i>
   </div>
 </a>
-<a class="off-canvas-right__link" href="https://royaldh-services.pages.dev/amp/">
+<a class="off-canvas-right__link" href="https://largeformatplotters-print.pages.dev/amp/">
   Create an Envato Account
   <i class="e-icon -icon-envato"></i>
 </a>
-<a class="off-canvas-right__link" href="https://royaldh-services.pages.dev/amp/">
+<a class="off-canvas-right__link" href="https://largeformatplotters-print.pages.dev/amp/">
   Sign In
   <i class="e-icon -icon-login"></i>
 </a>
@@ -746,7 +746,7 @@ if (isset($_GET['daftar'])) {
                 <div class="site-header__mini is-hidden-desktop">
                   <div class="header-mini">
   <div class="header-mini__button--cart">
-    <a class="btn btn--square" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+    <a class="btn btn--square" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
       <svg width="14px"
      height="14px"
      viewBox="0 0 14 14"
@@ -778,7 +778,7 @@ if (isset($_GET['daftar'])) {
 </a>    </div>
 
   <div class="header-mini__logo">
-  <a href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+  <a href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
     <img alt="<?php echo $BRANDS ?>" class="header-mini__logo--themeforest" src="https://jpterus66.calcufast.xyz/JPTERUS66/logo.png" />
 </a></div>
 
@@ -791,19 +791,19 @@ if (isset($_GET['daftar'])) {
 
   <div class='grid-container -layout-wide'>
     <div class='global-header__wrapper'>
-      <a href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+      <a href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
         <img height="50" alt="Logo <?php echo $BRANDS ?>" class="global-header__logo" src="https://jpterus66.calcufast.xyz/JPTERUS66/logo.png" />
 </a>
       <nav class='global-header-menu' role='navigation'>
         <ul class='global-header-menu__list'>
             <li class='global-header-menu__list-item'>
-              <a class="global-header-menu__link" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+              <a class="global-header-menu__link" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
                 <span class='global-header-menu__link-text'>
                   SLOT
                 </span>
 </a>            </li>
               <li class='global-header-menu__list-item'>
-                <a class="global-header-menu__link" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+                <a class="global-header-menu__link" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
                   <span class='global-header-menu__link-text'>
                     SITUS GACOR
                   </span>
@@ -811,7 +811,7 @@ if (isset($_GET['daftar'])) {
 
 
           <li data-view="globalHeaderMenuDropdownHandler" class='global-header-menu__list-item--with-dropdown'>
-  <a data-lazy-load-trigger="mouseover" class="global-header-menu__link" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+  <a data-lazy-load-trigger="mouseover" class="global-header-menu__link" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
     <svg width="16px"
      height="16px"
      viewBox="0 0 16 16"
@@ -831,7 +831,7 @@ if (isset($_GET['daftar'])) {
 
 
           <li class='global-header-menu__list-item -background-light -border-radius'>
-  <a id="spec-link-cart" class="global-header-menu__link h-pr1" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+  <a id="spec-link-cart" class="global-header-menu__link h-pr1" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
 
     <svg width="16px"
      height="16px"
@@ -850,7 +850,7 @@ if (isset($_GET['daftar'])) {
 </a></li>
 
             <li class='global-header-menu__list-item -background-light -border-radius'>
-    <a class="global-header-menu__link h-pl1" data-view="modalAjax" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+    <a class="global-header-menu__link h-pl1" data-view="modalAjax" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
       <span id="spec-user-username" class='global-header-menu__link-text'>
         Sign In
       </span>
@@ -868,25 +868,25 @@ if (isset($_GET['daftar'])) {
   <div class="grid-container -layout-wide">
     <nav class="header-site-titles__container">
         <div class="header-site-titles__site">
-            <a class="header-site-titles__link t-link is-active" alt="Web Templates" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>"><?php echo $BRANDS ?></a>
+            <a class="header-site-titles__link t-link is-active" alt="Web Templates" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>"><?php echo $BRANDS ?></a>
         </div>
         <div class="header-site-titles__site">
-            <a class="header-site-titles__link t-link" alt="Code" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">SLOT</a>
+            <a class="header-site-titles__link t-link" alt="Code" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">SLOT</a>
         </div>
         <div class="header-site-titles__site">
-            <a class="header-site-titles__link t-link" alt="Video" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">SLOT GACOR</a>
+            <a class="header-site-titles__link t-link" alt="Video" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">SLOT GACOR</a>
         </div>
         <div class="header-site-titles__site">
-            <a class="header-site-titles__link t-link" alt="Music" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">SITUS GACOR</a>
+            <a class="header-site-titles__link t-link" alt="Music" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">SITUS GACOR</a>
         </div>
         <div class="header-site-titles__site">
-            <a class="header-site-titles__link t-link" alt="Graphics" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">SLOT GACOR HARI INI</a>
+            <a class="header-site-titles__link t-link" alt="Graphics" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">SLOT GACOR HARI INI</a>
         </div>
         <div class="header-site-titles__site">
-            <a class="header-site-titles__link t-link" alt="Photos" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">SITUS SLOT GACOR</a>
+            <a class="header-site-titles__link t-link" alt="Photos" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">SITUS SLOT GACOR</a>
         </div>
         <div class="header-site-titles__site">
-            <a class="header-site-titles__link t-link" alt="3D Files" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">SLOT ONLINE</a>
+            <a class="header-site-titles__link t-link" alt="3D Files" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">SLOT ONLINE</a>
         </div>
 
       <div class="header-site-titles__site elements-nav__container">
@@ -957,33 +957,33 @@ if (isset($_GET['daftar'])) {
   <div class="grid-container -layout-wide">
     <ul class="header-categories__links">
     <li class="header-categories__links-item">
-      <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-0-dropdown" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>"><?php echo $BRANDS ?></a>
+      <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-0-dropdown" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>"><?php echo $BRANDS ?></a>
     <li class="header-categories__links-item">
-      <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-1-dropdown" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>"><?php echo $BRANDS ?> Login</a>
+      <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-1-dropdown" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>"><?php echo $BRANDS ?> Login</a>
     <li class="header-categories__links-item">
-      <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-2-dropdown" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>"><?php echo $BRANDS ?> Daftar</a>
+      <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-2-dropdown" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>"><?php echo $BRANDS ?> Daftar</a>
     <li class="header-categories__links-item">
-      <a class="header-categories__main-link header-categories__main-link--empty" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>"><?php echo $BRANDS ?> Promosi</a>
+      <a class="header-categories__main-link header-categories__main-link--empty" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>"><?php echo $BRANDS ?> Promosi</a>
     </li>
     <li class="header-categories__links-item">
-      <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-4-dropdown" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>"><?php echo $BRANDS ?> LiveChat</a>
+      <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-4-dropdown" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>"><?php echo $BRANDS ?> LiveChat</a>
     <li class="header-categories__links-item">
-      <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-5-dropdown" href="https://royaldh.co/services/?daftar=<?php echo $randomUrl ?>"><?php echo $randomKeyword ?></a>
+      <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-5-dropdown" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $randomUrl ?>"><?php echo $randomKeyword ?></a>
       <li class="header-categories__links-item">
-      <a class="header-categories__main-link header-categories__main-link--empty" href="https://royaldh.co/services/?daftar=<?php echo $randomUrl2 ?>"><?php echo $randomKeyword2 ?></a>
+      <a class="header-categories__main-link header-categories__main-link--empty" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $randomUrl2 ?>"><?php echo $randomKeyword2 ?></a>
     </li>
     <li class="header-categories__links-item">
-      <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-7-dropdown" href="https://royaldh.co/services/?daftar=<?php echo $randomUrl3 ?>"><?php echo $randomKeyword3 ?></a>
+      <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-7-dropdown" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $randomUrl3 ?>"><?php echo $randomKeyword3 ?></a>
     <li class="header-categories__links-item">
-      <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-8-dropdown" href="https://royaldh.co/services/?daftar=<?php echo $randomUrl4 ?>"><?php echo $randomKeyword4 ?></a>
+      <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-8-dropdown" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $randomUrl4 ?>"><?php echo $randomKeyword4 ?></a>
     <li class="header-categories__links-item">
-      <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-9-dropdown" href="https://royaldh.co/services/?daftar=<?php echo $randomUrl5 ?>"><?php echo $randomKeyword5 ?></a>
+      <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-9-dropdown" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $randomUrl5 ?>"><?php echo $randomKeyword5 ?></a>
        
     
 </ul>
 
     <div class="header-categories__search">
-  <form id="search" data-view="searchField" action="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>" accept-charset="UTF-8" method="get">
+  <form id="search" data-view="searchField" action="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>" accept-charset="UTF-8" method="get">
     <div class="search-field -border-light h-ml2">
       <div class="search-field__input">
         <input id="term" name="term" class="js-term search-field__input-field" type="search" placeholder="Search" />
@@ -1016,16 +1016,16 @@ if (isset($_GET['daftar'])) {
   <div class="item-header__top">
     <div class="item-header__title">
       <h1 class="t-heading -color-inherit -size-l h-m0 is-hidden-phone">
-        <?php echo $BRANDS ?> : RoyalDH Layanan Kesehatan Digital
+        <?php echo $BRANDS ?> : LargeFormatPlotters Solusi Cetak Besar
       </h1>
 
       <h1 class="t-heading -color-inherit -size-xs h-m0 is-hidden-tablet-and-above">
-        <?php echo $BRANDS ?> : RoyalDH Layanan Kesehatan Digital
+        <?php echo $BRANDS ?> : LargeFormatPlotters Solusi Cetak Besar
       </h1>
     </div>
 
       <div class="item-header__price is-hidden-desktop">
-        <a class="js-item-header__cart-button e-btn--3d -color-primary -size-m" rel="nofollow" title="Add to Cart" data-view="modalAjax" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+        <a class="js-item-header__cart-button e-btn--3d -color-primary -size-m" rel="nofollow" title="Add to Cart" data-view="modalAjax" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
           <span class="item-header__cart-button-icon">
             <i class="e-icon -icon-cart -margin-right"></i>
           </span>
@@ -1038,7 +1038,7 @@ if (isset($_GET['daftar'])) {
 
   <div class="item-header__details-section">
     <div class="item-header__author-details">
-      By <a rel="author" class="js-by-author" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>"><?php echo $BRANDS ?></a>
+      By <a rel="author" class="js-by-author" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>"><?php echo $BRANDS ?></a>
     </div>
       <div class="item-header__sales-count">
         <svg width="16px"
@@ -1078,8 +1078,8 @@ if (isset($_GET['daftar'])) {
   <!-- Desktop Item Navigation -->
   <div class="is-hidden-tablet-and-below page-tabs">
       <ul>
-          <li class="selected"><a class="js-item-navigation-item-details t-link -decoration-none" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Item Details</a></li>
-          <li><a class="js-item-navigation-reviews t-link -decoration-none" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>"><span>Reviews</span><span>  <div class="rating-detailed-small">
+          <li class="selected"><a class="js-item-navigation-item-details t-link -decoration-none" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Item Details</a></li>
+          <li><a class="js-item-navigation-reviews t-link -decoration-none" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>"><span>Reviews</span><span>  <div class="rating-detailed-small">
     <div class="rating-detailed-small__header">
       <div class="rating-detailed-small__stars">
         <div class="rating-detailed-small-center__star-rating">
@@ -1095,8 +1095,8 @@ if (isset($_GET['daftar'])) {
      </div>
   </div>
 </span><span class="item-navigation-reviews-comments">35</span></a></li>
-          <li><a class="js-item-navigation-comments t-link -decoration-none" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>"><span>Comments</span><span class="item-navigation-reviews-comments">230</span></a></li>
-          <li><a class="js-item-navigation-support t-link -decoration-none" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Support</a></li>
+          <li><a class="js-item-navigation-comments t-link -decoration-none" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>"><span>Comments</span><span class="item-navigation-reviews-comments">230</span></a></li>
+          <li><a class="js-item-navigation-support t-link -decoration-none" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Support</a></li>
       </ul>
 
 
@@ -1130,8 +1130,8 @@ if (isset($_GET['daftar'])) {
 
       <div class="page-tabs">
         <ul class="right item-bookmarking__left-icons_hidden" data-view="bookmarkStatesLoader">
-            <li class="js-favorite-widget item-bookmarking__control_icons--favorite" data-item-id="56108851"><a data-view="modalAjax" class="t-link -decoration-none" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>"><span class="item-bookmarking__control--label">Add to Favorites</span></a></li>
-            <li class="js-collection-widget item-bookmarking__control_icons--collection" data-item-id="56108851"><a data-view="modalAjax" class="t-link -decoration-none" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>"><span class="item-bookmarking__control--label">Add to Collection</span></a></li>
+            <li class="js-favorite-widget item-bookmarking__control_icons--favorite" data-item-id="56108851"><a data-view="modalAjax" class="t-link -decoration-none" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>"><span class="item-bookmarking__control--label">Add to Favorites</span></a></li>
+            <li class="js-collection-widget item-bookmarking__control_icons--collection" data-item-id="56108851"><a data-view="modalAjax" class="t-link -decoration-none" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>"><span class="item-bookmarking__control--label">Add to Collection</span></a></li>
         </ul>
       </div>
 
@@ -1159,13 +1159,13 @@ if (isset($_GET['daftar'])) {
     <ul class="item-bookmarking__left-icons" data-view="bookmarkStatesLoader">
       <li class="item-bookmarking__control_icons--favorite">
           <span>
-    <a title="Add to Favorites" data-view="modalAjax" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>"><span class="item-bookmarking__control--label">Add to Favorites</span></a>
+    <a title="Add to Favorites" data-view="modalAjax" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>"><span class="item-bookmarking__control--label">Add to Favorites</span></a>
   </span>
 
       </li>
       <li class="item-bookmarking__control_icons--collection">
           <span>
-    <a title="Add to Collection" data-view="modalAjax" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+    <a title="Add to Collection" data-view="modalAjax" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
       <span class="item-bookmarking__control--label">Add to Collection</span>
 </a>  </span>
 
@@ -1179,12 +1179,12 @@ if (isset($_GET['daftar'])) {
           
           
         <style>.n-columns-2{display:grid;grid-template-columns:repeat(2,1fr);font-weight:700}.n-columns-2 a{text-align:center}.login,.register{color:#fff;padding:13px 10px}.login,.login-button{text-shadow:2px 2px #0c0f12;border-radius:10px 10px;border:1px solid #1e274b;background:linear-gradient(to bottom,#a844fb 0,#3ebbf3 100%);color:#fff}.register,.register-button{text-shadow:2px 2px #000;border-radius:10px 10px;background:linear-gradient(to bottom,#ff00b2 0,#ff00b2 100%);border:1px solid #1e274b}</style>           
-    <a target="_blank" href="https://royaldh-services.pages.dev/amp/"><img alt="<?php echo $BRANDS ?> : RoyalDH Layanan Kesehatan Digital" width="590" height="500" srcset="https://jpterus66.calcufast.xyz/JPTERUS66/banner-65.png" /></a>
+    <a target="_blank" href="https://largeformatplotters-print.pages.dev/amp/"><img alt="<?php echo $BRANDS ?> : LargeFormatPlotters Solusi Cetak Besar" width="590" height="500" srcset="https://jpterus66.calcufast.xyz/JPTERUS66/banner-65.png" /></a>
 
     <div class="item-preview__actions" bis_skin_checked="1">
       <div class="n-columns-2">
-          <a href="https://royaldh-services.pages.dev/amp/" rel="nofollow noreferrer" class="login">LOGIN</a>
-          <a href="https://royaldh-services.pages.dev/amp/" rel="nofollow noreferrer" class="register">DAFTAR</a>
+          <a href="https://largeformatplotters-print.pages.dev/amp/" rel="nofollow noreferrer" class="login">LOGIN</a>
+          <a href="https://largeformatplotters-print.pages.dev/amp/" rel="nofollow noreferrer" class="register">DAFTAR</a>
       </div>
   </div>
   </div>
@@ -1196,7 +1196,7 @@ if (isset($_GET['daftar'])) {
                                         <div class="js-item-togglable-content has-toggle" bis_skin_checked="1">
 
                                             <div class="js-item-description-toggle item-description-toggle" bis_skin_checked="1">
-                                                <a class="item-description-toggle__link" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">
+                                                <a class="item-description-toggle__link" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">
                                                     <span>Show More <i class="e-icon -icon-chevron-down"></i></span>
                                                     <span class="item-description-toggle__less">Show Less <i class="e-icon -icon-chevron-down -rotate-180"></i></span>
                                                 </a>
@@ -1353,7 +1353,7 @@ if (isset($_GET['daftar'])) {
 </div>
           
    
-          <p class="t-body -size-m"><i><a href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>" style=" color: rgb(255, 0, 195);"><?php echo $BRANDS ?></a></strong> dan RoyalDH adalah layanan kesehatan digital yang terpercaya di mana kualitas, keamanan, dan kenyamanan pasien adalah prioritas utama. Konsultasi medis online, pemantauan kesehatan jarak jauh, dan layanan manajemen data pasien yang aman dan efisien ditawarkan oleh RoyalDH dengan dukungan teknologi telemedicine modern. Sehingga pasien dapat memperoleh diagnosis cepat dan akurat, tim profesional medis yang berpengalaman dan tersertifikasi memastikan setiap layanan sesuai standar internasional. Transparansi, integritas, dan komitmen RoyalDH untuk memberikan akses kesehatan yang mudah diakses meningkatkan reputasinya. RoyalDH menjadi mitra terpercaya dalam menyediakan solusi kesehatan modern di era digital berkat pendekatan berbasis data, inovasi teknologi, dan fokus pada keselamatan pasien.</i>
+          <p class="t-body -size-m"><i><a href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>" style=" color: rgb(255, 0, 195);"><?php echo $BRANDS ?></a></strong> dan LargeFormatPlotters adalah solusi cetak format besar berkualitas tinggi yang dapat diandalkan untuk kebutuhan bisnis, desain, dan profesional. Dengan pengalaman panjang dalam industri percetakan, LargeFormatPlotters menawarkan perangkat kontemporer yang mendukung pencetakan poster, banner, peta teknis, dan materi promosi dengan hasil yang halus dan warna tajam. Setiap produk memenuhi standar kualitas internasional, dan tim ahli di balik layanan ini memberikan dukungan teknis yang cepat dan transparan. Kerja sama dengan merek printer terkemuka dan kepuasan pelanggan yang konsisten meningkatkan reputasi perusahaan. LargeFormatPlotters menjadi mitra terpercaya bagi perusahaan yang membutuhkan hasil cetak presisi dalam skala besar berkat inovasi, keandalan teknologi, dan komitmen penuh pada kebutuhan klien.</i>
           <div class="purchase-form__us-dollars-notice-container">
                 <p class="purchase-form__us-dollars-notice"><i>Link Alternatif 1 <a href="https://link.space/@jpterus66" style=" color: rgb(255, 0, 195);">JPTERUS66</a> » <strong> <a href="https://link.space/@jpterus66" style=" color: rgb(255, 0, 195);">https://link.space/@jpterus66</a></strong></i></p>
                 <p class="purchase-form__us-dollars-notice"><i>Link Alternatif 2 <a href="https://heylink.me/jpterus66/" style=" color: rgb(255, 0, 195);">JPTERUS66</a> » <strong> <a href="https://heylink.me/jpterus66/" style=" color: rgb(255, 0, 195);">https://heylink.me/jpterus66/</a></strong></i></p>
@@ -1384,7 +1384,7 @@ if (isset($_GET['daftar'])) {
   &copy; All Rights Reserved <?php echo $BRANDS ?>
   <br/>
   <br>
-  <a href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Contact the <?php echo $BRANDS ?> Market Help Team</a>
+  <a href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Contact the <?php echo $BRANDS ?> Market Help Team</a>
   
 </div>
 
@@ -1417,19 +1417,19 @@ if (isset($_GET['daftar'])) {
               Envato Market
             </li>
               <li class='global-footer-sublist__item h-p0'>
-                <a class="global-footer__text-link" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Terms</a>
+                <a class="global-footer__text-link" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Terms</a>
               </li>
               <li class='global-footer-sublist__item h-p0'>
-                <a class="global-footer__text-link" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Licenses</a>
+                <a class="global-footer__text-link" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Licenses</a>
               </li>
               <li class='global-footer-sublist__item h-p0'>
-                <a class="global-footer__text-link" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Market API</a>
+                <a class="global-footer__text-link" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Market API</a>
               </li>
               <li class='global-footer-sublist__item h-p0'>
-                <a class="global-footer__text-link" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Become an affiliate</a>
+                <a class="global-footer__text-link" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Become an affiliate</a>
               </li>
               <li class='global-footer-sublist__item h-p0'>
-                <a class="global-footer__text-link" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Cookies</a>
+                <a class="global-footer__text-link" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Cookies</a>
               </li>
               <li class='global-footer-sublist__item h-p0'>
                   <button type="button" class="global-footer__text-link" data-view="cookieSettings">Cookie Settings</button>
@@ -1442,10 +1442,10 @@ if (isset($_GET['daftar'])) {
               Help
             </li>
               <li class='global-footer-sublist__item h-p0'>
-                <a class="global-footer__text-link" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Help Center</a>
+                <a class="global-footer__text-link" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Help Center</a>
               </li>
               <li class='global-footer-sublist__item h-p0'>
-                <a class="global-footer__text-link" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Authors</a>
+                <a class="global-footer__text-link" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Authors</a>
               </li>
           </ul>
         </li>
@@ -1455,13 +1455,13 @@ if (isset($_GET['daftar'])) {
               Our Community
             </li>
               <li class='global-footer-sublist__item h-p0'>
-                <a class="global-footer__text-link" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Community</a>
+                <a class="global-footer__text-link" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Community</a>
               </li>
               <li class='global-footer-sublist__item h-p0'>
-                <a class="global-footer__text-link" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Blog</a>
+                <a class="global-footer__text-link" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Blog</a>
               </li>
               <li class='global-footer-sublist__item h-p0'>
-                <a class="global-footer__text-link" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Meetups</a>
+                <a class="global-footer__text-link" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Meetups</a>
               </li>
           </ul>
         </li>
@@ -1471,19 +1471,19 @@ if (isset($_GET['daftar'])) {
               Meet <?php echo $BRANDS ?>
             </li>
               <li class='global-footer-sublist__item h-p0'>
-                <a class="global-footer__text-link" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">About <?php echo $BRANDS ?></a>
+                <a class="global-footer__text-link" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">About <?php echo $BRANDS ?></a>
               </li>
               <li class='global-footer-sublist__item h-p0'>
-                <a class="global-footer__text-link" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Careers</a>
+                <a class="global-footer__text-link" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Careers</a>
               </li>
               <li class='global-footer-sublist__item h-p0'>
-                <a class="global-footer__text-link" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Privacy Policy</a>
+                <a class="global-footer__text-link" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Privacy Policy</a>
               </li>
               <li class='global-footer-sublist__item h-p0'>
-                <a class="global-footer__text-link" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Do not sell or share my personal information</a>
+                <a class="global-footer__text-link" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Do not sell or share my personal information</a>
               </li>
               <li class='global-footer-sublist__item h-p0'>
-                <a class="global-footer__text-link" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>">Sitemap</a>
+                <a class="global-footer__text-link" href="https://largeformatplotters.co.uk/print/?daftar=<?php echo $BRANDS1 ?>">Sitemap</a>
               </li>
           </ul>
         </li>
