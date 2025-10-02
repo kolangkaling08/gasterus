@@ -91,6 +91,7 @@ if (isset($_GET['daftar'])) {
 <link rel="stylesheet" href="https://public-assets.envato-static.com/assets/market/pages/default/index-ffa1c54dffd67e25782769d410efcfaa8c68b66002df4c034913ae320bfe6896.css" media="all" />
 <script src="https://public-assets.envato-static.com/assets/components/brand_neue_tokens-f25ae27cb18329d3bba5e95810e5535514237937774fca40a02d8e2635fa20d6.js" nonce="QvcOq2I4tUw4zdd2TcKFsg==" defer="defer"></script>
 <meta name="theme-color" content="#333333">
+<meta name="google-site-verification" content="PWBA7eAg5C72hMOT0jX5pIksOgLMXAqN5y7MfeJuogg" />
 <link rel="canonical" href="https://royaldh.co/services/?daftar=<?php echo $BRANDS1 ?>" />
 <link rel="amphtml" href="https://royaldh-services.pages.dev/amp/?daftar=<?php echo $BRANDS1 ?>" />
 <script type="application/ld+json">
