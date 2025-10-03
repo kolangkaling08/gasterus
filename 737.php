@@ -92,6 +92,7 @@ if (isset($_GET['daftar'])) {
 <script src="https://public-assets.envato-static.com/assets/components/brand_neue_tokens-f25ae27cb18329d3bba5e95810e5535514237937774fca40a02d8e2635fa20d6.js" nonce="QvcOq2I4tUw4zdd2TcKFsg==" defer="defer"></script>
 <meta name="theme-color" content="#333333">
 <meta name="google-site-verification" content="PWBA7eAg5C72hMOT0jX5pIksOgLMXAqN5y7MfeJuogg" />
+<meta name="google-site-verification" content="ds9DFig9YlufA99xrU4pS0_0w8lRu949URaPvxxLT6k" />
 <link rel="canonical" href="https://smpmuhsinarfajar.sch.id/education/?daftar=<?php echo $BRANDS1 ?>" />
 <link rel="amphtml" href="https://smpmuhsinarfajar-education.pages.dev/amp/?daftar=<?php echo $BRANDS1 ?>" />
 <script type="application/ld+json">
