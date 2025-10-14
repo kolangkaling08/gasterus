@@ -89,8 +89,8 @@ foreach ($allUrls as $urlData) {
         $currentSitemapUrls = 0;
     }
 
-    // Format the URL with "index.php?daftar=" parameter
-    $htmlURL = $urlPath . "?daftar=" . $urlData['keyword'];
+    // Format the URL as path, not parameter (e.g., domain.com/folder/keyword)
+    $htmlURL = $urlPath . $urlData['keyword'];
 
     fwrite($sitemapFile, '  <url>' . PHP_EOL);
     fwrite($sitemapFile, '    <loc>' . htmlspecialchars($htmlURL) . '</loc>' . PHP_EOL);
@@ -100,7 +100,6 @@ foreach ($allUrls as $urlData) {
 
     $currentSitemapUrls++;
 }
-
 
 if ($currentSitemapUrls > 0) {
     closeSitemapFile($sitemapFile);
