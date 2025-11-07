@@ -1,86 +1,97 @@
 <?php
-ini_set('memory_limit', '20G');
+// =======================
+// FIXED & OPTIMIZED SCRIPT
+// =======================
 
-// Function to get the current URL path with customizable protocol
+// Tampilkan error supaya gampang debug
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+// Batas memori aman untuk hosting biasa
+ini_set('memory_limit', '512M');
+
+// Nama file keyword
+$judulFile = "kw.txt";
+
+// Maksimum URL per sitemap (aturan Google: max 50.000, tapi kita pakai 10.000 biar ringan)
+$maxUrlsPerSitemap = 10000;
+
+// Pilih protokol situs kamu
+$protocol = 'https'; // ubah ke 'http' kalau situsmu belum pakai SSL
+
+// Cek apakah file kw.txt ada dan bisa dibaca
+if (!file_exists($judulFile) || !is_readable($judulFile)) {
+    die("❌ File '$judulFile' tidak ditemukan atau tidak bisa dibaca.");
+}
+
+// Dapatkan URL dasar
 function getCurrentUrlPath($protocol = 'https') {
-    $host = $_SERVER['HTTP_HOST'];
-    $path = rtrim(dirname($_SERVER['REQUEST_URI']), '/'); // Ensure no trailing slash
+    $host = $_SERVER['HTTP_HOST'] ?? 'localhost';
+    $requestUri = $_SERVER['REQUEST_URI'] ?? '/';
+    $path = rtrim(dirname($requestUri), '/');
     return "$protocol://$host$path/";
 }
 
-// Set protocol (http or https)
-$protocol = 'https'; // Change to 'http' if needed
-
-$judulFile = "kw.txt";
-$maxUrlsPerSitemap = 10000;
-
-// Check if the file exists and is readable
-if (!file_exists($judulFile) || !is_readable($judulFile)) {
-    die("File not found or not readable.");
-}
-
-// Read all lines from the file
-$fileLines = file($judulFile, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-$totalKeywords = count($fileLines);
-
-// Get the base URL path with the selected protocol
 $urlPath = getCurrentUrlPath($protocol);
 
-// Create a sitemap index file
-$sitemapIndexFile = fopen("sitemap_index.xml", "w");
-if (!$sitemapIndexFile) {
-    die("Unable to open sitemap_index.xml for writing.");
-}
-
-// Write the XML header for the sitemap index
-fwrite($sitemapIndexFile, '<?xml version="1.0" encoding="UTF-8"?>' . PHP_EOL);
-fwrite($sitemapIndexFile, '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . PHP_EOL);
-
-$currentSitemapNum = 1;
-$currentSitemapUrls = 0;
-$sitemapFile = null;
-
+// Fungsi buka sitemap baru
 function openNewSitemapFile($num) {
-    $sitemapFileName = "sitemap{$num}.xml";
-    $file = fopen($sitemapFileName, "w");
+    $fileName = "sitemap{$num}.xml";
+    $file = fopen($fileName, "w");
     if (!$file) {
-        die("Unable to open $sitemapFileName for writing.");
+        die("❌ Tidak bisa membuat file: $fileName");
     }
     fwrite($file, '<?xml version="1.0" encoding="UTF-8"?>' . PHP_EOL);
     fwrite($file, '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . PHP_EOL);
     return $file;
 }
 
+// Tutup sitemap
 function closeSitemapFile($file) {
     fwrite($file, '</urlset>' . PHP_EOL);
     fclose($file);
 }
 
+// Tulis entry ke sitemap index
 function writeSitemapIndexEntry($indexFile, $urlPath, $num) {
-    fwrite($indexFile, '  <sitemap>' . PHP_EOL);
-    fwrite($indexFile, '    <loc>' . htmlspecialchars($urlPath . "sitemap{$num}.xml") . '</loc>' . PHP_EOL);
-    fwrite($indexFile, '    <lastmod>' . date('Y-m-d\TH:i:sP') . '</lastmod>' . PHP_EOL);
-    fwrite($indexFile, '  </sitemap>' . PHP_EOL);
+    fwrite($indexFile, "  <sitemap>\n");
+    fwrite($indexFile, "    <loc>" . htmlspecialchars($urlPath . "sitemap{$num}.xml") . "</loc>\n");
+    fwrite($indexFile, "    <lastmod>" . date('Y-m-d\TH:i:sP') . "</lastmod>\n");
+    fwrite($indexFile, "  </sitemap>\n");
 }
 
+// Buat sitemap index
+$sitemapIndexFile = fopen("sitemap_index.xml", "w");
+if (!$sitemapIndexFile) {
+    die("❌ Tidak bisa membuat sitemap_index.xml");
+}
+fwrite($sitemapIndexFile, '<?xml version="1.0" encoding="UTF-8"?>' . PHP_EOL);
+fwrite($sitemapIndexFile, '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . PHP_EOL);
+
+// Persiapan awal
+$currentSitemapNum = 1;
+$currentSitemapUrls = 0;
 $sitemapFile = openNewSitemapFile($currentSitemapNum);
 
-// Prepare all URLs from the keywords
-$allUrls = [];
-foreach ($fileLines as $judul) {
-    $baseTargetString = strtolower(str_replace(' ', '-', $judul));
-    $baseTargetString = preg_replace('/[^a-z0-9\-]/', '', $baseTargetString); // Ensure only valid characters
-    $allUrls[] = [
-        'keyword' => $baseTargetString,
-        'url' => $baseTargetString
-    ];
+// Baca file besar baris per baris (hemat RAM)
+$handle = fopen($judulFile, "r");
+if (!$handle) {
+    die("❌ Tidak bisa membuka $judulFile");
 }
 
-// Shuffle the URLs to mix the keywords (optional)
-shuffle($allUrls);
+while (($judul = fgets($handle)) !== false) {
+    $judul = trim($judul);
+    if ($judul === '') continue; // skip baris kosong
 
-// Write the URLs to the sitemap files
-foreach ($allUrls as $urlData) {
+    // Bersihkan keyword -> slug URL friendly
+    $slug = strtolower($judul);
+    $slug = str_replace(' ', '-', $slug);
+    $slug = preg_replace('/[^a-z0-9\-]/', '', $slug);
+
+    $htmlURL = $urlPath . $slug;
+
+    // Jika sudah mencapai batas, tutup sitemap dan buka baru
     if ($currentSitemapUrls >= $maxUrlsPerSitemap) {
         closeSitemapFile($sitemapFile);
         writeSitemapIndexEntry($sitemapIndexFile, $urlPath, $currentSitemapNum);
@@ -89,18 +100,18 @@ foreach ($allUrls as $urlData) {
         $currentSitemapUrls = 0;
     }
 
-    // Format the URL as path, not parameter (e.g., domain.com/folder/keyword)
-    $htmlURL = $urlPath . $urlData['keyword'];
-
-    fwrite($sitemapFile, '  <url>' . PHP_EOL);
-    fwrite($sitemapFile, '    <loc>' . htmlspecialchars($htmlURL) . '</loc>' . PHP_EOL);
-    fwrite($sitemapFile, '    <lastmod>' . date('Y-m-d\TH:i:sP') . '</lastmod>' . PHP_EOL);
-    fwrite($sitemapFile, '    <changefreq>daily</changefreq>' . PHP_EOL);
-    fwrite($sitemapFile, '  </url>' . PHP_EOL);
+    // Tulis URL ke sitemap
+    fwrite($sitemapFile, "  <url>\n");
+    fwrite($sitemapFile, "    <loc>" . htmlspecialchars($htmlURL) . "</loc>\n");
+    fwrite($sitemapFile, "    <lastmod>" . date('Y-m-d\TH:i:sP') . "</lastmod>\n");
+    fwrite($sitemapFile, "    <changefreq>daily</changefreq>\n");
+    fwrite($sitemapFile, "  </url>\n");
 
     $currentSitemapUrls++;
 }
+fclose($handle);
 
+// Tutup sitemap terakhir
 if ($currentSitemapUrls > 0) {
     closeSitemapFile($sitemapFile);
     writeSitemapIndexEntry($sitemapIndexFile, $urlPath, $currentSitemapNum);
@@ -109,25 +120,17 @@ if ($currentSitemapUrls > 0) {
 fwrite($sitemapIndexFile, '</sitemapindex>' . PHP_EOL);
 fclose($sitemapIndexFile);
 
-// Create robots.txt file
+// Buat robots.txt
 $robotsFile = fopen("robots.txt", "w");
-if (!$robotsFile) {
-    die("Unable to open robots.txt for writing.");
+if ($robotsFile) {
+    fwrite($robotsFile, "User-agent: *\n");
+    fwrite($robotsFile, "Allow: /\n\n");
+    fwrite($robotsFile, "Sitemap: " . $urlPath . "sitemap_index.xml\n");
+    for ($i = 1; $i <= $currentSitemapNum; $i++) {
+        fwrite($robotsFile, "Sitemap: " . $urlPath . "sitemap{$i}.xml\n");
+    }
+    fclose($robotsFile);
 }
 
-// Write basic robots.txt content
-fwrite($robotsFile, "User-agent: *\n");
-fwrite($robotsFile, "Allow: /\n\n");
-
-// Add sitemap index
-fwrite($robotsFile, "Sitemap: " . $urlPath . "sitemap_index.xml\n");
-
-// Add all individual sitemaps
-for ($i = 1; $i <= $currentSitemapNum; $i++) {
-    fwrite($robotsFile, "Sitemap: " . $urlPath . "sitemap{$i}.xml\n");
-}
-
-fclose($robotsFile);
-
-echo "SITEMAPS, SITEMAP INDEX, AND ROBOTS.TXT CREATED SUCCESSFULLY!";
+echo "✅ SITEMAPS, SITEMAP INDEX, DAN ROBOTS.TXT BERHASIL DIBUAT!";
 ?>
