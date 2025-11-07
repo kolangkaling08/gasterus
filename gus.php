@@ -1,126 +1,146 @@
 <?php
-// =======================
-// FIXED & OPTIMIZED SCRIPT
-// =======================
+// HEMAT MEMORI SANGAT AGRESIF - versi debugging + produksi
+// Simpan sebagai oke.php dan jalankan lewat browser
 
-// Tampilkan error supaya gampang debug
+// Nonaktifkan output buffering agar PHP nggak menimbun output di memori
+while (ob_get_level() > 0) { ob_end_flush(); }
+ob_implicit_flush(true);
+
+// Tampilkan error supaya kelihatan detail
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-// Batas memori aman untuk hosting biasa
-ini_set('memory_limit', '512M');
+// Coba set memory limit (jika hosting izinkan)
+// Jika tidak diizinkan, ini tidak akan mengubah apa pun.
+@ini_set('memory_limit', '256M');
 
-// Nama file keyword
+// Laporkan memory_limit supaya bisa dicek di log / output
+$limit_now = ini_get('memory_limit');
+
+// Config
 $judulFile = "kw.txt";
-
-// Maksimum URL per sitemap (aturan Google: max 50.000, tapi kita pakai 10.000 biar ringan)
 $maxUrlsPerSitemap = 10000;
+$protocol = 'https';
 
-// Pilih protokol situs kamu
-$protocol = 'https'; // ubah ke 'http' kalau situsmu belum pakai SSL
-
-// Cek apakah file kw.txt ada dan bisa dibaca
+// Validasi file
 if (!file_exists($judulFile) || !is_readable($judulFile)) {
     die("❌ File '$judulFile' tidak ditemukan atau tidak bisa dibaca.");
 }
 
-// Dapatkan URL dasar
+// Dapatkan base URL (aman di CLI juga)
 function getCurrentUrlPath($protocol = 'https') {
     $host = $_SERVER['HTTP_HOST'] ?? 'localhost';
     $requestUri = $_SERVER['REQUEST_URI'] ?? '/';
     $path = rtrim(dirname($requestUri), '/');
-    return "$protocol://$host$path/";
+    return rtrim("$protocol://$host$path", '/') . '/';
 }
-
 $urlPath = getCurrentUrlPath($protocol);
 
-// Fungsi buka sitemap baru
+// Fungsi buka/tutup sitemap
 function openNewSitemapFile($num) {
     $fileName = "sitemap{$num}.xml";
-    $file = fopen($fileName, "w");
-    if (!$file) {
-        die("❌ Tidak bisa membuat file: $fileName");
+    $f = fopen($fileName, "w");
+    if (!$f) {
+        die("❌ Tidak bisa membuat file $fileName - cek permission.");
     }
-    fwrite($file, '<?xml version="1.0" encoding="UTF-8"?>' . PHP_EOL);
-    fwrite($file, '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . PHP_EOL);
-    return $file;
+    fwrite($f, '<?xml version="1.0" encoding="UTF-8"?>' . PHP_EOL);
+    fwrite($f, '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . PHP_EOL);
+    return $f;
 }
-
-// Tutup sitemap
-function closeSitemapFile($file) {
-    fwrite($file, '</urlset>' . PHP_EOL);
-    fclose($file);
+function closeSitemapFile($f) {
+    if (is_resource($f)) {
+        fwrite($f, '</urlset>' . PHP_EOL);
+        fclose($f);
+    }
 }
-
-// Tulis entry ke sitemap index
-function writeSitemapIndexEntry($indexFile, $urlPath, $num) {
+function writeSitemapIndexEntry($indexFile, $urlPath, $num, $lastmod) {
     fwrite($indexFile, "  <sitemap>\n");
     fwrite($indexFile, "    <loc>" . htmlspecialchars($urlPath . "sitemap{$num}.xml") . "</loc>\n");
-    fwrite($indexFile, "    <lastmod>" . date('Y-m-d\TH:i:sP') . "</lastmod>\n");
+    fwrite($indexFile, "    <lastmod>{$lastmod}</lastmod>\n");
     fwrite($indexFile, "  </sitemap>\n");
 }
 
-// Buat sitemap index
+// Buat index file (tulis langsung ke disk, jangan simpan di memori)
 $sitemapIndexFile = fopen("sitemap_index.xml", "w");
-if (!$sitemapIndexFile) {
-    die("❌ Tidak bisa membuat sitemap_index.xml");
-}
+if (!$sitemapIndexFile) die("❌ Gagal membuat sitemap_index.xml");
 fwrite($sitemapIndexFile, '<?xml version="1.0" encoding="UTF-8"?>' . PHP_EOL);
 fwrite($sitemapIndexFile, '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . PHP_EOL);
 
-// Persiapan awal
 $currentSitemapNum = 1;
 $currentSitemapUrls = 0;
 $sitemapFile = openNewSitemapFile($currentSitemapNum);
 
-// Baca file besar baris per baris (hemat RAM)
+// Untuk lastmod kita pakai waktu saat sitemap dibuka (hemat pemanggilan date())
+$lastmodForCurrentSitemap = date('Y-m-d\TH:i:sP');
+
+// Baca file secara streaming baris demi baris
 $handle = fopen($judulFile, "r");
-if (!$handle) {
-    die("❌ Tidak bisa membuka $judulFile");
-}
+if (!$handle) die("❌ Tidak bisa membuka $judulFile");
 
-while (($judul = fgets($handle)) !== false) {
-    $judul = trim($judul);
-    if ($judul === '') continue; // skip baris kosong
+// Counter untuk memicu GC secara berkala
+$counter = 0;
+$gcInterval = 1000; // panggil garbage collect tiap 1000 baris
 
-    // Bersihkan keyword -> slug URL friendly
+while (($line = fgets($handle)) !== false) {
+    $judul = trim($line);
+    if ($judul === '') continue;
+
+    // slugify sederhana (sangat ringan)
     $slug = strtolower($judul);
     $slug = str_replace(' ', '-', $slug);
+    // hapus karakter non alnum dan '-'
     $slug = preg_replace('/[^a-z0-9\-]/', '', $slug);
 
-    $htmlURL = $urlPath . $slug;
-
-    // Jika sudah mencapai batas, tutup sitemap dan buka baru
+    // Jika sudah mencapai batas URL per sitemap -> tutup & buka baru
     if ($currentSitemapUrls >= $maxUrlsPerSitemap) {
+        // tutup file lama dan tulis entry ke index dengan lastmod yang disimpan
         closeSitemapFile($sitemapFile);
-        writeSitemapIndexEntry($sitemapIndexFile, $urlPath, $currentSitemapNum);
+        writeSitemapIndexEntry($sitemapIndexFile, $urlPath, $currentSitemapNum, $lastmodForCurrentSitemap);
+
+        // reset dan buka baru
         $currentSitemapNum++;
-        $sitemapFile = openNewSitemapFile($currentSitemapNum);
         $currentSitemapUrls = 0;
+        $sitemapFile = openNewSitemapFile($currentSitemapNum);
+        $lastmodForCurrentSitemap = date('Y-m-d\TH:i:sP');
     }
 
-    // Tulis URL ke sitemap
+    // bangun url (tidak menyimpan ke array — langsung tulis)
+    $htmlURL = $urlPath . $slug;
+
     fwrite($sitemapFile, "  <url>\n");
     fwrite($sitemapFile, "    <loc>" . htmlspecialchars($htmlURL) . "</loc>\n");
-    fwrite($sitemapFile, "    <lastmod>" . date('Y-m-d\TH:i:sP') . "</lastmod>\n");
+    fwrite($sitemapFile, "    <lastmod>" . $lastmodForCurrentSitemap . "</lastmod>\n");
     fwrite($sitemapFile, "    <changefreq>daily</changefreq>\n");
     fwrite($sitemapFile, "  </url>\n");
 
+    // free small vars (biasanya PHP GC otomatis, tapi kita bantu)
+    unset($slug, $htmlURL, $judul, $line);
+
     $currentSitemapUrls++;
+    $counter++;
+
+    // panggil garbage collector berkala
+    if ($counter % $gcInterval === 0) {
+        if (function_exists('gc_collect_cycles')) {
+            gc_collect_cycles();
+        }
+        // juga log sedikit supaya kalau masih error kita tahu progress
+        error_log("Progress: processed {$counter} lines. memory_get_usage=" . memory_get_usage(true));
+    }
 }
 fclose($handle);
 
-// Tutup sitemap terakhir
+// tutup sitemap terakhir jika ada isinya
 if ($currentSitemapUrls > 0) {
     closeSitemapFile($sitemapFile);
-    writeSitemapIndexEntry($sitemapIndexFile, $urlPath, $currentSitemapNum);
+    writeSitemapIndexEntry($sitemapIndexFile, $urlPath, $currentSitemapNum, $lastmodForCurrentSitemap);
 }
 
 fwrite($sitemapIndexFile, '</sitemapindex>' . PHP_EOL);
 fclose($sitemapIndexFile);
 
-// Buat robots.txt
+// Buat robots.txt (tulis langsung)
 $robotsFile = fopen("robots.txt", "w");
 if ($robotsFile) {
     fwrite($robotsFile, "User-agent: *\n");
@@ -132,5 +152,9 @@ if ($robotsFile) {
     fclose($robotsFile);
 }
 
-echo "✅ SITEMAPS, SITEMAP INDEX, DAN ROBOTS.TXT BERHASIL DIBUAT!";
+// Output ringkasan (jika dijalankan via browser)
+echo "✅ SITEMAP DIBUAT: {$currentSitemapNum} file(s).<br>";
+echo "Memory limit saat runtime: {$limit_now}<br>";
+echo "Memory usage (peak): " . (memory_get_peak_usage(true)) . " bytes<br>";
+echo "Jika masih error, lihat error log server untuk detail (atau hubungi hosting).<br>";
 ?>
